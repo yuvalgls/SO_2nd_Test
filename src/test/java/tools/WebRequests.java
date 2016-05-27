@@ -29,7 +29,7 @@ public class WebRequests {
 	}
 
 	public static void sendit(final String url, final String body) {
-		if (pool == null) {
+		if (((ThreadPoolExecutor) pool).getActiveCount() == 0) {
 			pool = Executors.newFixedThreadPool(SOTest.THREAD_POOL_SIZE);
 		}
 		Runnable r = new Runnable() {
