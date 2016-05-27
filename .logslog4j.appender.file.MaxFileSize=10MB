@@ -1,0 +1,25 @@
+2016-05-27 17:31:05 INFO  SOTest:13 - Creating new customer
+2016-05-27 17:31:05 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 17:31:05 INFO  SOTest:32 - there were 10 lines
+2016-05-27 17:31:05 INFO  SOTest:17 - Building the json
+2016-05-27 17:31:05 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 17:31:06 INFO  SOTest:52 - responseCode: 200 in 1289 ms
+2016-05-27 17:31:06 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:06 INFO  SOTest:52 - responseCode: 200 in 1362 ms
+2016-05-27 17:31:06 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:06 INFO  SOTest:52 - responseCode: 200 in 1373 ms
+2016-05-27 17:31:06 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:06 INFO  SOTest:52 - responseCode: 200 in 1359 ms
+2016-05-27 17:31:06 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:06 INFO  SOTest:52 - responseCode: 200 in 1377 ms
+2016-05-27 17:31:06 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:07 INFO  SOTest:52 - responseCode: 200 in 707 ms
+2016-05-27 17:31:07 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:07 INFO  SOTest:52 - responseCode: 200 in 737 ms
+2016-05-27 17:31:07 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:07 INFO  SOTest:52 - responseCode: 200 in 775 ms
+2016-05-27 17:31:07 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:07 INFO  SOTest:52 - responseCode: 200 in 776 ms
+2016-05-27 17:31:07 INFO  SOTest:41 - Exporting to : 27-05-2016.csv
+2016-05-27 17:31:07 INFO  SOTest:52 - responseCode: 200 in 762 ms
+2016-05-27 17:31:07 INFO  SOTest:41 - Exporting to : 27-05-2016.csv

@@ -2,9 +2,13 @@ package tools;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
+
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
+
+import tests.SOTest;
 
 public class WebRequests {
 	public static ExecutorService pool = Executors.newFixedThreadPool(5);
@@ -25,81 +29,38 @@ public class WebRequests {
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
+				// System.out.println(Thread.currentThread().getName());
+				int responseCode = 0;
+				long requestResomnseTime = 0;
 				try {
-					// System.out.println("Sending data");
-					// HttpClient client = new HttpClient();
-					// client.getParams().setParameter("http.useragent",
-					// "Test Client");
-					//
-					// PostMethod method = new PostMethod(url);
-					//
-					// StringRequestEntity requestEntity = new
-					// StringRequestEntity(
-					// body, "application/json", "UTF-8");
-					// method.setRequestEntity(requestEntity);
-					// client.executeMethod(method);
-					// method.getResponseBodyAsStream();
-					// System.out.println(method.getResponseBodyAsString());
-					// method.releaseConnection();
-
-					tools.time.sleep(1000);
-					// SOTest.logger.info("sending " + body);
-					// String responseCode = null;
-					// long requestResomnseTime = 0;
-					// try {
-					// CloseableHttpClient httpClient =
-					// HttpClientBuilder.create()
-					// .build();
-					// HttpPost request = new HttpPost(url);
-					// StringEntity params = new StringEntity(body);
-					// request.addHeader("content-type", "application/json");
-					// request.setEntity(params);
-					// long startTime = System.currentTimeMillis();
-					// HttpResponse result = httpClient.execute(request);
-					// requestResomnseTime = System.currentTimeMillis()
-					// - startTime;
-					// responseCode = result.getStatusLine().toString();
-					// SOTest.logger.info("responseCode: " + responseCode +
-					// " in "
-					// + requestResomnseTime + " ms");
-
-					// tools.csvFiles.saveToCsvFile(tools.time.getCurrectDate()
-					// + ".csv", responseCode, body, requestResomnseTime);
-
+					HttpClient client = new HttpClient();
+					PostMethod method = new PostMethod(url);
+					StringRequestEntity requestEntity = new StringRequestEntity(
+							body, "application/json", "UTF-8");
+					method.setRequestEntity(requestEntity);
+					long startTime = System.currentTimeMillis();
+					responseCode = client.executeMethod(method);
+					requestResomnseTime = System.currentTimeMillis()
+							- startTime;
+					method.getResponseBodyAsStream();
+					method.releaseConnection();
 				} catch (Exception e) {
-					System.out.println(e);
 				}
-
+				SOTest.logger.info(body + " recived responseCode: "
+						+ responseCode + " in " + requestResomnseTime + " ms");
+				tools.csvFiles.saveToCsvFile(tools.time.getCurrectDate()
+						+ ".csv", String.valueOf(responseCode), body,
+						requestResomnseTime);
 			}
 		};
 		pool.execute(r);
 
 	}
-	// @Override
-	// public void run() {
-	// tools.time.sleep(1000);
-	// SOTest.logger.info("sending " + body);
-	// String responseCode = null;
-	// long requestResomnseTime = 0;
-	// try {
-	// CloseableHttpClient httpClient = HttpClientBuilder.create()
-	// .build();
-	// HttpPost request = new HttpPost(url);
-	// StringEntity params = new StringEntity(body);
-	// request.addHeader("content-type", "application/json");
-	// request.setEntity(params);
-	// long startTime = System.currentTimeMillis();
-	// HttpResponse result = httpClient.execute(request);
-	// requestResomnseTime = System.currentTimeMillis()
-	// - startTime;
-	// responseCode = result.getStatusLine().toString();
-	// SOTest.logger.info("responseCode: " + responseCode + " in "
-	// + requestResomnseTime + " ms");
-	// } catch (Exception e) {
-	// System.out.println(e);
-	// }
-	// tools.csvFiles.saveToCsvFile(tools.time.getCurrectDate()
-	// + ".csv", responseCode, body, requestResomnseTime);
-	// }
 
+	public static void waitForThreadsToFinish() {
+		int currentPoolSize;
+		do {
+			currentPoolSize = ((ThreadPoolExecutor) pool).getActiveCount();
+		} while (currentPoolSize > 0);
+	}
 }

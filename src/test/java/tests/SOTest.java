@@ -1,6 +1,5 @@
 package tests;
 
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
@@ -11,15 +10,14 @@ public class SOTest {
 	private static String URL = "https://sandbox.simpleorder.com/automation-test";
 
 	public static void main(String[] args) {
-		BasicConfigurator.configure();
 		customer customer1 = new customer("csvFiles/customerData.csv");
 		customer1.parseAndSendCustomOrders(URL);
-		System.out.println("done");
+		tools.WebRequests.waitForThreadsToFinish();
+		System.out.println("Done, please view the log file");
 	}
 
 	@Test
 	public void letsTest() {
-		BasicConfigurator.configure();
 		customer customer1 = new customer("csvFiles/customerData.csv");
 		customer1.parseAndSendCustomOrders(URL);
 		System.out.println("done");

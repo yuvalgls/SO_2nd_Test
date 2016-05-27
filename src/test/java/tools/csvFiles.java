@@ -24,7 +24,6 @@ public class csvFiles {
 			br = new BufferedReader(new FileReader(filsPath));
 			while ((line = br.readLine()) != null) {
 				lineIndex++;
-				// json.addToJson(Arrays.asList(line.split(cvsSplitBy)));
 				customerOrders.add(new CustomerOrder(Arrays.asList(line
 						.split(cvsSplitBy))));
 			}
@@ -36,9 +35,8 @@ public class csvFiles {
 		return customerOrders;
 	}
 
-	public static void saveToCsvFile(String sFileName, CharSequence responseCode,
+	public static void saveToCsvFile(String sFileName, String responseCode,
 			String data, long requestResomnseTime) {
-		SOTest.logger.info("Exporting to : " + sFileName);
 		try {
 			FileWriter writer = new FileWriter("csvFiles\\" + sFileName, true);
 			writer.append(responseCode);
