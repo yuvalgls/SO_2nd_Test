@@ -1,0 +1,200 @@
+2016-05-26 22:46:47 INFO  SOTest:13 - Creating new customer
+2016-05-26 22:46:47 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-26 22:46:47 INFO  SOTest:32 - there were 30 lines
+2016-05-26 22:46:47 INFO  SOTest:17 - Building the json
+2016-05-26 22:46:47 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-26 22:46:47 INFO  SOTest:61 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-26 22:46:49 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:46:50 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-26 22:46:50 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-26 22:46:51 INFO  SOTest:61 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-26 22:46:52 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:46:53 INFO  SOTest:61 - sending {"data":[{"name":"xbv","id":123}],"customer_id":1}
+2016-05-26 22:46:54 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:46:54 INFO  SOTest:61 - sending {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1}
+2016-05-26 22:46:55 INFO  SOTest:61 - sending {"data":[{"name":"ytn","id":123}],"customer_id":1}
+2016-05-26 22:46:56 INFO  SOTest:61 - sending {"data":[{"name":"d","id":123}],"customer_id":1}
+2016-05-26 22:46:57 INFO  SOTest:61 - sending {"data":[{"name":"tn","id":123}],"customer_id":1}
+2016-05-26 22:46:58 INFO  SOTest:61 - sending {"data":[{"name":"y","id":123}],"customer_id":1}
+2016-05-26 22:46:58 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:46:59 INFO  SOTest:61 - sending {"data":[{"name":"nxvb","id":123}],"customer_id":1}
+2016-05-26 22:47:00 INFO  SOTest:61 - sending {"data":[{"name":"mgm","id":123}],"customer_id":1}
+2016-05-26 22:47:01 INFO  SOTest:61 - sending {"data":[{"name":"ryu","id":123}],"customer_id":1}
+2016-05-26 22:47:02 INFO  SOTest:61 - sending {"data":[{"name":"mush","id":123}],"customer_id":1}
+2016-05-26 22:47:02 INFO  SOTest:61 - sending {"data":[{"name":"h","id":123}],"customer_id":1}
+2016-05-26 22:47:03 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-26 22:47:04 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-26 22:47:05 INFO  SOTest:61 - sending {"data":[{"name":"gn","id":123}],"customer_id":1}
+2016-05-26 22:47:06 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-26 22:47:07 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-26 22:47:07 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:47:08 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-26 22:47:09 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-26 22:47:10 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-26 22:47:10 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-26 22:47:11 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:51:24 INFO  SOTest:13 - Creating new customer
+2016-05-27 00:51:24 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 00:51:24 INFO  SOTest:32 - there were 30 lines
+2016-05-27 00:51:24 INFO  SOTest:17 - Building the json
+2016-05-27 00:51:24 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 00:51:24 INFO  SOTest:61 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 00:51:26 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:27 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 00:51:27 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 00:51:28 INFO  SOTest:61 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-27 00:51:29 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:30 INFO  SOTest:61 - sending {"data":[{"name":"xbv","id":123}],"customer_id":1}
+2016-05-27 00:51:31 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:31 INFO  SOTest:61 - sending {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1}
+2016-05-27 00:51:32 INFO  SOTest:61 - sending {"data":[{"name":"ytn","id":123}],"customer_id":1}
+2016-05-27 00:51:33 INFO  SOTest:61 - sending {"data":[{"name":"d","id":123}],"customer_id":1}
+2016-05-27 00:51:34 INFO  SOTest:61 - sending {"data":[{"name":"tn","id":123}],"customer_id":1}
+2016-05-27 00:51:35 INFO  SOTest:61 - sending {"data":[{"name":"y","id":123}],"customer_id":1}
+2016-05-27 00:51:35 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:36 INFO  SOTest:61 - sending {"data":[{"name":"nxvb","id":123}],"customer_id":1}
+2016-05-27 00:51:37 INFO  SOTest:61 - sending {"data":[{"name":"mgm","id":123}],"customer_id":1}
+2016-05-27 00:51:38 INFO  SOTest:61 - sending {"data":[{"name":"ryu","id":123}],"customer_id":1}
+2016-05-27 00:51:39 INFO  SOTest:61 - sending {"data":[{"name":"mush","id":123}],"customer_id":1}
+2016-05-27 00:51:39 INFO  SOTest:61 - sending {"data":[{"name":"h","id":123}],"customer_id":1}
+2016-05-27 00:51:40 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:51:41 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:51:42 INFO  SOTest:61 - sending {"data":[{"name":"gn","id":123}],"customer_id":1}
+2016-05-27 00:51:43 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:51:43 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:51:44 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:45 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:51:46 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:51:47 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:51:47 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:51:48 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:53:10 INFO  SOTest:13 - Creating new customer
+2016-05-27 00:53:10 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 00:53:10 INFO  SOTest:32 - there were 30 lines
+2016-05-27 00:53:10 INFO  SOTest:17 - Building the json
+2016-05-27 00:53:10 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 00:53:10 INFO  SOTest:61 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 00:53:12 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 1029ms
+2016-05-27 00:53:12 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:12 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 798ms
+2016-05-27 00:53:12 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 00:53:13 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 784ms
+2016-05-27 00:53:13 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 00:53:14 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 785ms
+2016-05-27 00:53:14 INFO  SOTest:61 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-27 00:53:15 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 784ms
+2016-05-27 00:53:15 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:16 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 790ms
+2016-05-27 00:53:16 INFO  SOTest:61 - sending {"data":[{"name":"xbv","id":123}],"customer_id":1}
+2016-05-27 00:53:16 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 811ms
+2016-05-27 00:53:16 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:17 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 780ms
+2016-05-27 00:53:17 INFO  SOTest:61 - sending {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1}
+2016-05-27 00:53:18 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 770ms
+2016-05-27 00:53:18 INFO  SOTest:61 - sending {"data":[{"name":"ytn","id":123}],"customer_id":1}
+2016-05-27 00:53:19 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 791ms
+2016-05-27 00:53:19 INFO  SOTest:61 - sending {"data":[{"name":"d","id":123}],"customer_id":1}
+2016-05-27 00:53:20 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 783ms
+2016-05-27 00:53:20 INFO  SOTest:61 - sending {"data":[{"name":"tn","id":123}],"customer_id":1}
+2016-05-27 00:53:20 INFO  SOTest:? - responseCode: HTTP/1.1 200 OK in 783ms
+2016-05-27 00:53:20 INFO  SOTest:61 - sending {"data":[{"name":"y","id":123}],"customer_id":1}
+2016-05-27 00:53:21 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 806 ms
+2016-05-27 00:53:21 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:22 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 773 ms
+2016-05-27 00:53:22 INFO  SOTest:61 - sending {"data":[{"name":"nxvb","id":123}],"customer_id":1}
+2016-05-27 00:53:23 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 777 ms
+2016-05-27 00:53:23 INFO  SOTest:61 - sending {"data":[{"name":"mgm","id":123}],"customer_id":1}
+2016-05-27 00:53:24 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 792 ms
+2016-05-27 00:53:24 INFO  SOTest:61 - sending {"data":[{"name":"ryu","id":123}],"customer_id":1}
+2016-05-27 00:53:24 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 786 ms
+2016-05-27 00:53:24 INFO  SOTest:61 - sending {"data":[{"name":"mush","id":123}],"customer_id":1}
+2016-05-27 00:53:25 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 802 ms
+2016-05-27 00:53:25 INFO  SOTest:61 - sending {"data":[{"name":"h","id":123}],"customer_id":1}
+2016-05-27 00:53:26 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 781 ms
+2016-05-27 00:53:26 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:53:27 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 791 ms
+2016-05-27 00:53:27 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:53:28 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 782 ms
+2016-05-27 00:53:28 INFO  SOTest:61 - sending {"data":[{"name":"gn","id":123}],"customer_id":1}
+2016-05-27 00:53:28 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 776 ms
+2016-05-27 00:53:28 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:53:29 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 775 ms
+2016-05-27 00:53:29 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:53:30 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 789 ms
+2016-05-27 00:53:30 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:31 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 786 ms
+2016-05-27 00:53:31 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:53:32 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 801 ms
+2016-05-27 00:53:32 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 00:53:32 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 780 ms
+2016-05-27 00:53:32 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 00:53:33 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 772 ms
+2016-05-27 00:53:33 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:53:34 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 789 ms
+2016-05-27 00:53:34 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 00:53:35 INFO  SOTest:39 - responseCode: HTTP/1.1 200 OK in 778 ms
+2016-05-27 01:01:50 INFO  SOTest:13 - Creating new customer
+2016-05-27 01:01:50 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 01:01:50 INFO  SOTest:32 - there were 30 lines
+2016-05-27 01:01:50 INFO  SOTest:17 - Building the json
+2016-05-27 01:01:50 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"xbv","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"ytn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"d","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"tn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"y","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"nxvb","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"mgm","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"ryu","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"mush","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"h","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"gn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"sfgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 01:01:50 INFO  SOTest:61 - sending {"data":[{"name":"fgn","id":123}],"customer_id":1}
+2016-05-27 01:03:00 INFO  SOTest:13 - Creating new customer
+2016-05-27 01:03:00 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 01:03:00 INFO  SOTest:32 - there were 30 lines
+2016-05-27 01:03:00 INFO  SOTest:17 - Building the json
+2016-05-27 01:03:00 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 01:03:00 INFO  SOTest:21 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:03:00 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:03:00 INFO  SOTest:21 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-27 01:03:00 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:03:00 INFO  SOTest:21 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 01:03:16 INFO  SOTest:13 - Creating new customer
+2016-05-27 01:03:16 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 01:03:16 INFO  SOTest:32 - there were 30 lines
+2016-05-27 01:03:16 INFO  SOTest:17 - Building the json
+2016-05-27 01:03:16 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 01:03:16 INFO  SOTest:21 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 01:03:16 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:03:16 INFO  SOTest:21 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:03:16 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:03:16 INFO  SOTest:21 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}
+2016-05-27 01:07:13 INFO  SOTest:13 - Creating new customer
+2016-05-27 01:07:13 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 01:07:13 INFO  SOTest:32 - there were 30 lines
+2016-05-27 01:07:13 INFO  SOTest:17 - Building the json
+2016-05-27 01:07:13 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 01:07:13 INFO  SOTest:21 - sending {"data":[{"name":"xn","id":123}],"customer_id":1}
+2016-05-27 01:07:13 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:07:13 INFO  SOTest:21 - sending {"data":[{"name":"vbn","id":123}],"customer_id":1}
+2016-05-27 01:07:13 INFO  SOTest:21 - sending {"data":[{"name":"n","id":123}],"customer_id":1}
+2016-05-27 01:07:13 INFO  SOTest:21 - sending {"data":[{"name":"xvb","id":123}],"customer_id":1}

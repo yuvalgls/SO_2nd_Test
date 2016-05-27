@@ -2,34 +2,30 @@ package tools;
 
 import java.util.ArrayList;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
+import testData.CustomerOrder;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import testData.Order;
 
 public class json {
-	static int csvSize = 2;
+	JSONObject object = new JSONObject();
 
-	public static String buildCustomerJson(ArrayList<Order> ordersList,
-			int customerId) {
-		JSONObject object = new JSONObject();
+	public json(int customerId) {
+		object.put("customer_id", customerId);
+	}
 
-		for (int index = 0; index < ordersList.size(); index++) {
-			object.append("data", buildJsonFromObject(ordersList.get(index)));
-		}
+	private void addToJSONObject(String str1, JSONObject object) {
+		this.object.append(str1, (Object) object);
+	}
 
-		object.append("customer_id", customerId);
-		System.out.println(object.toString());
-		String body = "{\"data\": [{\"id\":123,\"name\":\"mush\"},{\"id\":\"123\",\"name\":\"\"}],\"customer_id\":1}";
-		System.err.println(body);
+	public String getJsonAsString() {
 		return object.toString();
 	}
 
-	public void test() {
-
+	public void buildCustomerJson(ArrayList<CustomerOrder> list) {
+		for (int index = 0; index < list.size(); index++) {
+			addToJSONObject("data", buildJsonFromObject(list.get(index)));
+		}
 	}
 
 	private static JSONObject buildJsonFromObject(Object order) {
@@ -42,5 +38,23 @@ public class json {
 			e.printStackTrace();
 		}
 		return request;
+	}
+
+	public static void parseAndSendCustomerJson(String url, String json) {
+		int customer_id = 0;
+		org.json.JSONArray data = null;
+		try {
+			JSONObject obj = new JSONObject(json);
+			data = obj.getJSONArray("data");
+			customer_id = obj.getInt("customer_id");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		for (Object o : data) {
+			JSONObject newObj = new JSONObject();
+			newObj.put("customer_id", customer_id);
+			newObj.append("data", o);
+			tools.WebRequests.sendPostAndSaveData(url, newObj.toString());
+		}
 	}
 }

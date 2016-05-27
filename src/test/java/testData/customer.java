@@ -1,37 +1,35 @@
 package testData;
 
 import java.util.ArrayList;
-import java.util.List;
+
+import tests.SOTest;
 
 public class customer {
 	private static int totalNumberOfCustomers = 0;
+	private int customerId;
 	private String json;
-	int CSV_SIZE = 2;
 
-	private int customer_id;
-	private ArrayList<Order> data = new ArrayList<Order>();
-
-	public customer(List<String> orderList) {
-		this.customer_id = ++totalNumberOfCustomers;
-		fillOrders(orderList);
-		json = tools.json.buildCustomerJson(data, customer_id);
+	public customer(String filePath) {
+		SOTest.logger.info("Creating new customer");
+		this.customerId = ++totalNumberOfCustomers;
+		ArrayList<CustomerOrder> customerOrders = new ArrayList<CustomerOrder>();
+		customerOrders = tools.csvFiles.createCustomerOrdersList(filePath);
+		SOTest.logger.info("Building the json");
+		tools.json json = new tools.json(customerId);
+		json.buildCustomerJson(customerOrders);
+		this.json = json.getJsonAsString();
 	}
 
 	public int getCustomerID() {
-		return this.customer_id;
+		return this.customerId;
 	}
 
 	public String getJson() {
 		return this.json;
 	}
 
-	private void fillOrders(List<String> orderList) {
-		int countIndex = 0;
-		do {
-			data.add(new Order(orderList.subList(countIndex, countIndex
-					+ CSV_SIZE)));
-			countIndex += CSV_SIZE;
-		} while (countIndex < orderList.size());
-
+	public void parseAndSendCustomOrders(String url) {
+		SOTest.logger.info("sending the customer data to " + url);
+		tools.json.parseAndSendCustomerJson(url, this.json);
 	}
 }

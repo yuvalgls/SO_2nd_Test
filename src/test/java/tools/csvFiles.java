@@ -1,46 +1,56 @@
 package tools;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+
+import testData.CustomerOrder;
+import tests.SOTest;
 
 public class csvFiles {
-	public static List<String> readCSVFileToArray(String filePath) {
+
+	public static ArrayList<CustomerOrder> createCustomerOrdersList(
+			String filsPath) {
+		SOTest.logger.info("Reading csv file " + filsPath);
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
-		List<String> list = new ArrayList<String>();
+		ArrayList<CustomerOrder> customerOrders = new ArrayList<CustomerOrder>();
 		try {
-			br = new BufferedReader(new FileReader(filePath));
+			int lineIndex = 0;
+			br = new BufferedReader(new FileReader(filsPath));
 			while ((line = br.readLine()) != null) {
-				list.addAll(Arrays.asList(line.split(cvsSplitBy)));
+				lineIndex++;
+				// json.addToJson(Arrays.asList(line.split(cvsSplitBy)));
+				customerOrders.add(new CustomerOrder(Arrays.asList(line
+						.split(cvsSplitBy))));
 			}
 			br.close();
+			SOTest.logger.info("there were " + lineIndex + " lines");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return list;
+		return customerOrders;
 	}
 
-	public static void saveToCsvFile(String sFileName, String responseCode,
-			String sentDate, long requestResomnseTime) {
+	public static void saveToCsvFile(String sFileName, CharSequence responseCode,
+			String data, long requestResomnseTime) {
+		SOTest.logger.info("Exporting to : " + sFileName);
 		try {
-			FileWriter writer = new FileWriter("csvFiles\\" + sFileName);
-
+			FileWriter writer = new FileWriter("csvFiles\\" + sFileName, true);
 			writer.append(responseCode);
 			writer.append(',');
-			writer.append(sentDate);
-			writer.append(',');
 			writer.append(String.valueOf(requestResomnseTime));
+			writer.append(',');
+			writer.append(data);
 			writer.append('\n');
-
-			// generate whatever data you want
-
 			writer.flush();
 			writer.close();
+		} catch (FileNotFoundException e) {
+			saveToCsvFile(sFileName, responseCode, data, requestResomnseTime);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
