@@ -257,3 +257,157 @@
 2016-05-27 18:09:10 INFO  SOTest:31 - there were 10 lines
 2016-05-27 18:09:10 INFO  SOTest:17 - Building the json
 2016-05-27 18:09:10 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:19:27 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:19:27 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:19:27 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:19:27 INFO  SOTest:17 - Building the json
+2016-05-27 18:19:27 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:43:17 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:43:17 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:43:17 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:43:17 INFO  SOTest:17 - Building the json
+2016-05-27 18:43:18 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:43:20 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:43:20 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:43:20 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:43:20 INFO  SOTest:17 - Building the json
+2016-05-27 18:43:20 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:43:21 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1426 ms
+2016-05-27 18:43:21 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1476 ms
+2016-05-27 18:43:21 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1481 ms
+2016-05-27 18:43:21 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1494 ms
+2016-05-27 18:43:21 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1561 ms
+2016-05-27 18:43:22 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 670 ms
+2016-05-27 18:43:22 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 682 ms
+2016-05-27 18:43:22 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 735 ms
+2016-05-27 18:43:22 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 766 ms
+2016-05-27 18:43:22 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 696 ms
+2016-05-27 18:43:53 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:43:53 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:43:53 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:43:53 INFO  SOTest:17 - Building the json
+2016-05-27 18:43:53 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:44:07 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:44:07 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:44:08 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:44:08 INFO  SOTest:17 - Building the json
+2016-05-27 18:44:08 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:45:51 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:45:51 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:45:51 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:45:51 INFO  SOTest:17 - Building the json
+2016-05-27 18:45:51 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:46:10 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:46:10 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:46:10 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:46:10 INFO  SOTest:17 - Building the json
+2016-05-27 18:46:10 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1291 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1340 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1370 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1372 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1382 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 592 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 697 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 706 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 734 ms
+2016-05-27 18:46:12 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 721 ms
+2016-05-27 18:46:19 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:46:19 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:46:19 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:46:19 INFO  SOTest:17 - Building the json
+2016-05-27 18:46:19 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:46:49 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:46:49 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:46:49 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:46:49 INFO  SOTest:17 - Building the json
+2016-05-27 18:46:49 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:46:50 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1260 ms
+2016-05-27 18:46:50 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1335 ms
+2016-05-27 18:46:50 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1359 ms
+2016-05-27 18:46:50 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1374 ms
+2016-05-27 18:46:50 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1375 ms
+2016-05-27 18:46:51 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 619 ms
+2016-05-27 18:46:51 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 640 ms
+2016-05-27 18:46:51 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 701 ms
+2016-05-27 18:46:51 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 711 ms
+2016-05-27 18:46:51 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 715 ms
+2016-05-27 18:47:13 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:47:13 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:47:13 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:47:13 INFO  SOTest:17 - Building the json
+2016-05-27 18:47:13 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:47:14 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1261 ms
+2016-05-27 18:47:14 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1339 ms
+2016-05-27 18:47:14 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1343 ms
+2016-05-27 18:47:14 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1351 ms
+2016-05-27 18:47:14 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1361 ms
+2016-05-27 18:47:15 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 599 ms
+2016-05-27 18:47:15 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 682 ms
+2016-05-27 18:47:15 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 720 ms
+2016-05-27 18:47:15 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 724 ms
+2016-05-27 18:47:15 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 737 ms
+2016-05-27 18:47:26 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:47:26 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:47:26 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:47:26 INFO  SOTest:17 - Building the json
+2016-05-27 18:47:26 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:47:27 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1230 ms
+2016-05-27 18:47:27 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1268 ms
+2016-05-27 18:47:27 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1307 ms
+2016-05-27 18:47:27 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1320 ms
+2016-05-27 18:47:27 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1324 ms
+2016-05-27 18:47:28 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 613 ms
+2016-05-27 18:47:28 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 628 ms
+2016-05-27 18:47:28 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 689 ms
+2016-05-27 18:47:28 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 727 ms
+2016-05-27 18:47:28 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 715 ms
+2016-05-27 18:50:43 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:50:43 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:50:43 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:50:43 INFO  SOTest:17 - Building the json
+2016-05-27 18:50:43 INFO  SOTest:32 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:50:45 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1418 ms
+2016-05-27 18:50:45 INFO  SOTest:49 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1482 ms
+2016-05-27 18:50:45 INFO  SOTest:49 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1486 ms
+2016-05-27 18:50:45 INFO  SOTest:49 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1496 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1978 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 648 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 688 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 699 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 695 ms
+2016-05-27 18:50:46 INFO  SOTest:49 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 592 ms
+2016-05-27 18:55:29 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:55:29 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:55:29 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:55:29 INFO  SOTest:17 - [testData.CustomerOrder@4abdb505, testData.CustomerOrder@7ce6a65d, testData.CustomerOrder@1500955a, testData.CustomerOrder@e874448, testData.CustomerOrder@29b5cd00, testData.CustomerOrder@60285225, testData.CustomerOrder@7113b13f, testData.CustomerOrder@45820e51, testData.CustomerOrder@42d8062c, testData.CustomerOrder@6043cd28] orders were found to customer#1
+2016-05-27 18:55:29 INFO  SOTest:19 - Building the json
+2016-05-27 18:55:29 INFO  SOTest:23 - json: {"data":[{"name":"xn","id":123},{"name":"n","id":123},{"name":"vbn","id":123},{"name":"vbn","id":123},{"name":"xvb","id":123},{"name":"n","id":123},{"name":"xbv","id":123},{"name":"n","id":123},{"name":"xbvnxbvn","id":123},{"name":"ytn","id":123}],"customer_id":1}
+2016-05-27 18:55:29 INFO  SOTest:35 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:55:30 INFO  SOTest:48 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1334 ms
+2016-05-27 18:55:30 INFO  SOTest:48 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1337 ms
+2016-05-27 18:55:30 INFO  SOTest:48 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1383 ms
+2016-05-27 18:55:30 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1403 ms
+2016-05-27 18:55:30 INFO  SOTest:48 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1407 ms
+2016-05-27 18:55:31 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 702 ms
+2016-05-27 18:55:31 INFO  SOTest:48 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 733 ms
+2016-05-27 18:55:31 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 705 ms
+2016-05-27 18:55:31 INFO  SOTest:48 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 731 ms
+2016-05-27 18:55:31 INFO  SOTest:48 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 736 ms
+2016-05-27 18:55:58 INFO  SOTest:13 - Creating new customer
+2016-05-27 18:55:58 INFO  SOTest:17 - Reading csv file csvFiles/customerData.csv
+2016-05-27 18:55:58 INFO  SOTest:31 - there were 10 lines
+2016-05-27 18:55:58 INFO  SOTest:17 - 10 orders were found to customer#1
+2016-05-27 18:55:58 INFO  SOTest:19 - Building the json
+2016-05-27 18:55:58 INFO  SOTest:23 - json: {"data":[{"name":"xn","id":123},{"name":"n","id":123},{"name":"vbn","id":123},{"name":"vbn","id":123},{"name":"xvb","id":123},{"name":"n","id":123},{"name":"xbv","id":123},{"name":"n","id":123},{"name":"xbvnxbvn","id":123},{"name":"ytn","id":123}],"customer_id":1}
+2016-05-27 18:55:58 INFO  SOTest:35 - sending the customer data to https://sandbox.simpleorder.com/automation-test
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"xn","id":123}],"customer_id":1} recived responseCode: 200 in 1408 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 1480 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1504 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"xvb","id":123}],"customer_id":1} recived responseCode: 200 in 1505 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"vbn","id":123}],"customer_id":1} recived responseCode: 200 in 1519 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 600 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"xbv","id":123}],"customer_id":1} recived responseCode: 200 in 616 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"ytn","id":123}],"customer_id":1} recived responseCode: 200 in 681 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"xbvnxbvn","id":123}],"customer_id":1} recived responseCode: 200 in 718 ms
+2016-05-27 18:56:00 INFO  SOTest:48 - {"data":[{"name":"n","id":123}],"customer_id":1} recived responseCode: 200 in 721 ms

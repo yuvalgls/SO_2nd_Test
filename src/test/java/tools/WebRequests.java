@@ -29,7 +29,6 @@ public class WebRequests {
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
-				// System.out.println(Thread.currentThread().getName());
 				int responseCode = 0;
 				long requestResomnseTime = 0;
 				try {
@@ -59,8 +58,18 @@ public class WebRequests {
 
 	public static void waitForThreadsToFinish() {
 		int currentPoolSize;
-		do {
-			currentPoolSize = ((ThreadPoolExecutor) pool).getActiveCount();
-		} while (currentPoolSize > 0);
+		int trys = 0;
+		try {
+			if (trys < 10) {
+				do {
+					trys++;
+					currentPoolSize = ((ThreadPoolExecutor) pool)
+							.getActiveCount();
+					tools.time.sleep(1000);
+				} while (currentPoolSize > 0);
+			}
+		} catch (Exception e) {
+
+		}
 	}
 }

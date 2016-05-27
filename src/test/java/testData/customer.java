@@ -14,10 +14,13 @@ public class customer {
 		this.customerId = ++totalNumberOfCustomers;
 		ArrayList<CustomerOrder> customerOrders = new ArrayList<CustomerOrder>();
 		customerOrders = tools.csvFiles.createCustomerOrdersList(filePath);
+		SOTest.logger.info(customerOrders.size()
+				+ " orders were found to customer#" + customerId);
 		SOTest.logger.info("Building the json");
 		tools.json json = new tools.json(customerId);
 		json.buildCustomerJson(customerOrders);
 		this.json = json.getJsonAsString();
+		SOTest.logger.info("json: " + this.json);
 	}
 
 	public int getCustomerID() {
