@@ -7,14 +7,16 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import testData.CustomerOrder;
-import tests.SOTest;
+import org.apache.log4j.Logger;
 
-public class csvFiles {
+import testData.CustomerOrder;
+
+public class CsvFiles {
+	public static Logger logger = Logger.getLogger(CsvFiles.class);
 
 	public static ArrayList<CustomerOrder> createCustomerOrdersList(
 			String filsPath) {
-		SOTest.logger.info("Reading csv file " + filsPath);
+		logger.info("Reading csv file " + filsPath);
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
@@ -28,7 +30,7 @@ public class csvFiles {
 						.split(cvsSplitBy))));
 			}
 			br.close();
-			SOTest.logger.info("there were " + lineIndex + " lines");
+			logger.info("there were " + lineIndex + " lines");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

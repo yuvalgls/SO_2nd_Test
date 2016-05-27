@@ -2,15 +2,17 @@ package tools;
 
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
 import org.json.JSONObject;
 
 import testData.CustomerOrder;
 import com.google.gson.Gson;
 
-public class json {
+public class Json {
 	JSONObject object = new JSONObject();
+	public static Logger logger = Logger.getLogger(Json.class);
 
-	public json(int customerId) {
+	public Json(int customerId) {
 		object.put("customer_id", customerId);
 	}
 
@@ -57,5 +59,6 @@ public class json {
 			tools.WebRequests.sendPostAndSaveData(url, newObj.toString());
 		}
 		tools.WebRequests.waitForThreadsToFinish();
+		tools.WebRequests.killThreadPool();
 	}
 }

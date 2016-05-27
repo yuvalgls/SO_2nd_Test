@@ -7,11 +7,14 @@ import java.util.concurrent.ThreadPoolExecutor;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
+import org.apache.log4j.Logger;
 
 import tests.SOTest;
 
 public class WebRequests {
-	public static ExecutorService pool = Executors.newFixedThreadPool(5);
+	public static ExecutorService pool = Executors
+			.newFixedThreadPool(SOTest.THREAD_POOL_SIZE);
+	public static Logger logger = Logger.getLogger(WebRequests.class);
 
 	public static void sendPostAndSaveData(final String url, final String body) {
 		sendit(url, body);
@@ -20,12 +23,15 @@ public class WebRequests {
 
 	public static void exportData(String requestJson, String responseCode,
 			long requestResomnseTime) {
-		tools.csvFiles.saveToCsvFile("CustomerDataAns.csv", responseCode,
+		tools.CsvFiles.saveToCsvFile("CustomerDataAns.csv", responseCode,
 				requestJson, requestResomnseTime);
 
 	}
 
 	public static void sendit(final String url, final String body) {
+		if (pool == null) {
+			pool = Executors.newFixedThreadPool(SOTest.THREAD_POOL_SIZE);
+		}
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
@@ -45,9 +51,9 @@ public class WebRequests {
 					method.releaseConnection();
 				} catch (Exception e) {
 				}
-				SOTest.logger.info(body + " recived responseCode: "
-						+ responseCode + " in " + requestResomnseTime + " ms");
-				tools.csvFiles.saveToCsvFile(tools.time.getCurrectDate()
+				logger.info(body + " recived responseCode: " + responseCode
+						+ " in " + requestResomnseTime + " ms");
+				tools.CsvFiles.saveToCsvFile(tools.Time.getCurrectDate()
 						+ ".csv", String.valueOf(responseCode), body,
 						requestResomnseTime);
 			}
@@ -65,11 +71,15 @@ public class WebRequests {
 					trys++;
 					currentPoolSize = ((ThreadPoolExecutor) pool)
 							.getActiveCount();
-					tools.time.sleep(1000);
+					tools.Time.sleep(1000);
 				} while (currentPoolSize > 0);
 			}
 		} catch (Exception e) {
 
 		}
+	}
+
+	public static void killThreadPool() {
+		pool.shutdownNow();
 	}
 }
