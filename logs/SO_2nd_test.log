@@ -933,3 +933,53 @@
 2016-05-27 20:59:36 INFO  WebRequests:54 - {"data":[{"name":"ytn","id":8}],"customer_id":2} recived responseCode: 200 in 592 ms
 2016-05-27 20:59:37 INFO  WebRequests:54 - {"data":[{"name":"ndgh","id":8}],"customer_id":2} recived responseCode: 200 in 593 ms
 2016-05-27 20:59:38 INFO  SOTest:44 - Done
+2016-05-28 13:14:12 INFO  Customer:16 - Creating new customer
+2016-05-28 13:14:12 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 13:14:12 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 13:14:12 INFO  Customer:20 - 23 orders were found to customer #1
+2016-05-28 13:14:12 INFO  Customer:22 - Building the json
+2016-05-28 13:14:12 INFO  Customer:26 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 13:14:12 INFO  Customer:38 - sending the customer data to https://sandbox.simpleorder.com/automation-test 5 at a time
+2016-05-28 13:14:21 INFO  WebRequests:54 - {"data":[{"name":"vbn","id":4}],"customer_id":1} recived responseCode: 200 in 1421 ms
+2016-05-28 13:14:21 INFO  WebRequests:54 - {"data":[{"name":"xvb","id":5}],"customer_id":1} recived responseCode: 200 in 1494 ms
+2016-05-28 13:14:21 INFO  WebRequests:54 - {"data":[{"name":"vbn","id":3}],"customer_id":1} recived responseCode: 200 in 1495 ms
+2016-05-28 13:14:21 INFO  WebRequests:54 - {"data":[{"name":"n","id":2}],"customer_id":1} recived responseCode: 200 in 1495 ms
+2016-05-28 13:14:21 INFO  WebRequests:54 - {"data":[{"name":"xn","id":1}],"customer_id":1} recived responseCode: 200 in 1496 ms
+2016-05-28 13:14:22 INFO  WebRequests:54 - {"data":[{"name":"n","id":56}],"customer_id":1} recived responseCode: 200 in 597 ms
+2016-05-28 13:14:22 INFO  WebRequests:54 - {"data":[{"name":"ytn","id":8}],"customer_id":1} recived responseCode: 200 in 681 ms
+2016-05-28 13:14:22 INFO  WebRequests:54 - {"data":[{"name":"xbv","id":6}],"customer_id":1} recived responseCode: 200 in 724 ms
+2016-05-28 13:14:22 INFO  WebRequests:54 - {"data":[{"name":"n","id":76}],"customer_id":1} recived responseCode: 200 in 745 ms
+2016-05-28 13:14:22 INFO  WebRequests:54 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":1} recived responseCode: 200 in 757 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"ndgh","id":8}],"customer_id":1} recived responseCode: 200 in 595 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"ghn","id":7695}],"customer_id":1} recived responseCode: 200 in 657 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"nd","id":78}],"customer_id":1} recived responseCode: 200 in 700 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"g","id":87}],"customer_id":1} recived responseCode: 200 in 675 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"h","id":9}],"customer_id":1} recived responseCode: 200 in 702 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 596 ms
+2016-05-28 13:14:23 INFO  WebRequests:54 - {"data":[{"name":"dgh","id":56}],"customer_id":1} recived responseCode: 200 in 594 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"dgh","id":4568}],"customer_id":1} recived responseCode: 200 in 664 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"n","id":7}],"customer_id":1} recived responseCode: 200 in 681 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 674 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"ghn","id":7}],"customer_id":1} recived responseCode: 200 in 603 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"n","id":978}],"customer_id":1} recived responseCode: 200 in 601 ms
+2016-05-28 13:14:24 INFO  WebRequests:54 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 622 ms
+2016-05-28 13:14:26 INFO  SOTest:46 - Done
+2016-05-28 13:14:26 INFO  Customer:16 - Creating new customer
+2016-05-28 13:14:26 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 13:14:26 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 13:14:26 INFO  Customer:20 - 11 orders were found to customer #2
+2016-05-28 13:14:26 INFO  Customer:22 - Building the json
+2016-05-28 13:14:26 INFO  Customer:26 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 13:14:26 INFO  Customer:38 - sending the customer data to https://sandbox.simpleorder.com/automation-test 1 at a time
+2016-05-28 13:14:27 INFO  WebRequests:54 - {"data":[{"name":"xn","id":1}],"customer_id":2} recived responseCode: 200 in 612 ms
+2016-05-28 13:14:27 INFO  WebRequests:54 - {"data":[{"name":"n","id":2}],"customer_id":2} recived responseCode: 200 in 602 ms
+2016-05-28 13:14:28 INFO  WebRequests:54 - {"data":[{"name":"vbn","id":3}],"customer_id":2} recived responseCode: 200 in 593 ms
+2016-05-28 13:14:28 INFO  WebRequests:54 - {"data":[{"name":"vbn","id":4}],"customer_id":2} recived responseCode: 200 in 595 ms
+2016-05-28 13:14:29 INFO  WebRequests:54 - {"data":[{"name":"xvb","id":5}],"customer_id":2} recived responseCode: 200 in 603 ms
+2016-05-28 13:14:30 INFO  WebRequests:54 - {"data":[{"name":"n","id":56}],"customer_id":2} recived responseCode: 200 in 611 ms
+2016-05-28 13:14:30 INFO  WebRequests:54 - {"data":[{"name":"xbv","id":6}],"customer_id":2} recived responseCode: 200 in 597 ms
+2016-05-28 13:14:31 INFO  WebRequests:54 - {"data":[{"name":"n","id":76}],"customer_id":2} recived responseCode: 200 in 601 ms
+2016-05-28 13:14:31 INFO  WebRequests:54 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":2} recived responseCode: 200 in 592 ms
+2016-05-28 13:14:32 INFO  WebRequests:54 - {"data":[{"name":"ytn","id":8}],"customer_id":2} recived responseCode: 200 in 604 ms
+2016-05-28 13:14:33 INFO  WebRequests:54 - {"data":[{"name":"ndgh","id":8}],"customer_id":2} recived responseCode: 200 in 606 ms
+2016-05-28 13:14:34 INFO  SOTest:46 - Done

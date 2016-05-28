@@ -17,7 +17,7 @@ public class Customer {
 		this.customerId = ++totalNumberOfCustomers;
 		ArrayList<CustomerOrder> customerOrders = new ArrayList<CustomerOrder>();
 		customerOrders = tools.CsvFiles.createCustomerOrdersList(filePath);
-		logger.info(customerOrders.size() + " orders were found to customer#"
+		logger.info(customerOrders.size() + " orders were found to customer #"
 				+ customerId);
 		logger.info("Building the json");
 		tools.Json json = new tools.Json(customerId);

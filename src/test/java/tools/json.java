@@ -58,7 +58,5 @@ public class Json {
 			newObj.append("data", o);
 			tools.WebRequests.sendPostAndSaveData(url, newObj.toString());
 		}
-		tools.WebRequests.waitForThreadsToFinish();
-		tools.WebRequests.killThreadPool();
 	}
 }

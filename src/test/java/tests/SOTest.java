@@ -30,17 +30,19 @@ public class SOTest {
 
 	@Parameters
 	public static Collection<String[]> addedNumbers() {
-		return Arrays.asList(new String[][] { {
-				"https://sandbox.simpleorder.com/automation-test", "5",
-				"csvFiles/customerData.csv" } ,{
-					"https://sandbox.simpleorder.com/automation-test", "1",
-					"csvFiles/customerData1.csv" }});
+		return Arrays.asList(new String[][] {
+				{ "https://sandbox.simpleorder.com/automation-test", "5",
+						"csvFiles/customerData.csv" },
+				{ "https://sandbox.simpleorder.com/automation-test", "1",
+						"csvFiles/customerData1.csv" } });
 	}
 
 	@Test
 	public void letsTest() {
 		Customer customer1 = new Customer(CSV_FILE_PATH);
 		customer1.parseAndSendCustomOrders(URL);
+		tools.WebRequests.waitForThreadsToFinish();
+		tools.WebRequests.killThreadPool();
 		logger.info("Done");
 	}
 }
