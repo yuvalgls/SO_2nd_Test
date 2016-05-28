@@ -20,23 +20,21 @@ public class SOTest {
 	public static String CSV_FILE_PATH = "";
 
 	@SuppressWarnings("static-access")
-	public SOTest(String url, String threadPool, String csvFilePath,
-			String csvExportFileName) {
+	public SOTest(String url, String threadPool, String csvFilePath) {
 		this.URL = url;
 		if (Integer.valueOf(threadPool) > 0) {
 			this.THREAD_POOL_SIZE = Integer.valueOf(threadPool);
 		}
 		this.CSV_FILE_PATH = csvFilePath;
-		this.EXPORT_FILE_NAME = csvExportFileName;
 	}
 
 	@Parameters
 	public static Collection<String[]> addedNumbers() {
 		return Arrays.asList(new String[][] {
 				{ "https://sandbox.simpleorder.com/automation-test", "10",
-						"csvFiles/customerData.csv", "1stTestResultsFile" },
+						"csvFiles/customerData.csv" },
 				{ "https://sandbox.simpleorder.com/automation-test", "5",
-						"csvFiles/customerData1.csv", "2ndTestResultsFile" } });
+						"csvFiles/customerData1.csv" } });
 	}
 
 	@Test

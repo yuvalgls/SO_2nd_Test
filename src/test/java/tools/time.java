@@ -21,6 +21,5 @@ public class Time {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 }

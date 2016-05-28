@@ -36,7 +36,7 @@ public class Customer {
 		return this.json;
 	}
 
-	public void sendCustomerOrder(int customerOrderIndex) {
+	private void sendCustomerOrder(int customerOrderIndex) {
 		logger.info("Sending customer #" + this.customerId + " order #"
 				+ customerOrders.get(customerOrderIndex).getId());
 		tools.WebRequests.sendPostAndSaveData(SOTest.URL, (tools.Json

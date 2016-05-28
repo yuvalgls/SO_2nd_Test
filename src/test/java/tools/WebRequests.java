@@ -18,14 +18,6 @@ public class WebRequests {
 
 	public static void sendPostAndSaveData(final String url, final String body) {
 		sendit(url, body);
-
-	}
-
-	public static void exportData(String requestJson, String responseCode,
-			long requestResomnseTime) {
-		tools.CsvFiles.saveToCsvFile(SOTest.EXPORT_FILE_NAME, responseCode,
-				requestJson, requestResomnseTime);
-
 	}
 
 	public static void sendit(final String url, final String body) {
@@ -59,7 +51,6 @@ public class WebRequests {
 			}
 		};
 		pool.execute(r);
-
 	}
 
 	public static void waitForThreadsToFinish() {
@@ -75,7 +66,6 @@ public class WebRequests {
 				} while (currentPoolSize > 0);
 			}
 		} catch (Exception e) {
-
 		}
 	}
 
