@@ -14,7 +14,7 @@ public class CustomerOrder {
 		}
 	}
 
-	public int getCustomerId() {
+	public int getId() {
 		return this.id;
 	}
 

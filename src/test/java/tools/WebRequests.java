@@ -23,7 +23,7 @@ public class WebRequests {
 
 	public static void exportData(String requestJson, String responseCode,
 			long requestResomnseTime) {
-		tools.CsvFiles.saveToCsvFile("CustomerDataAns.csv", responseCode,
+		tools.CsvFiles.saveToCsvFile(SOTest.EXPORT_FILE_NAME, responseCode,
 				requestJson, requestResomnseTime);
 
 	}

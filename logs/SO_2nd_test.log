@@ -983,3 +983,595 @@
 2016-05-28 13:14:32 INFO  WebRequests:54 - {"data":[{"name":"ytn","id":8}],"customer_id":2} recived responseCode: 200 in 604 ms
 2016-05-28 13:14:33 INFO  WebRequests:54 - {"data":[{"name":"ndgh","id":8}],"customer_id":2} recived responseCode: 200 in 606 ms
 2016-05-28 13:14:34 INFO  SOTest:46 - Done
+2016-05-28 21:44:16 INFO  Customer:17 - Creating new customer
+2016-05-28 21:44:16 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:44:16 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:44:16 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:44:16 INFO  Customer:23 - Building the json
+2016-05-28 21:44:16 INFO  Customer:27 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 21:45:07 INFO  WebRequests:54 - null recived responseCode: 400 in 1408 ms
+2016-05-28 21:45:42 INFO  WebRequests:54 - null recived responseCode: 400 in 655 ms
+2016-05-28 21:45:47 INFO  WebRequests:54 - null recived responseCode: 400 in 681 ms
+2016-05-28 21:45:47 INFO  WebRequests:54 - null recived responseCode: 400 in 770 ms
+2016-05-28 21:45:47 INFO  WebRequests:54 - null recived responseCode: 400 in 788 ms
+2016-05-28 21:45:47 INFO  WebRequests:54 - null recived responseCode: 400 in 824 ms
+2016-05-28 21:45:47 INFO  WebRequests:54 - null recived responseCode: 400 in 811 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 616 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 697 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 749 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 771 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 793 ms
+2016-05-28 21:45:48 INFO  WebRequests:54 - null recived responseCode: 400 in 622 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 590 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 699 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 736 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 736 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 658 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 632 ms
+2016-05-28 21:45:49 INFO  WebRequests:54 - null recived responseCode: 400 in 661 ms
+2016-05-28 21:45:50 INFO  WebRequests:54 - null recived responseCode: 400 in 683 ms
+2016-05-28 21:45:50 INFO  WebRequests:54 - null recived responseCode: 400 in 685 ms
+2016-05-28 21:45:50 INFO  WebRequests:54 - null recived responseCode: 400 in 617 ms
+2016-05-28 21:45:52 INFO  SOTest:46 - Done
+2016-05-28 21:45:52 INFO  Customer:17 - Creating new customer
+2016-05-28 21:45:52 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 21:45:52 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 21:45:52 INFO  Customer:21 - 11 orders were found to customer #2
+2016-05-28 21:45:52 INFO  Customer:23 - Building the json
+2016-05-28 21:45:52 INFO  Customer:27 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 21:46:47 INFO  Customer:17 - Creating new customer
+2016-05-28 21:46:47 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:46:47 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:46:47 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:46:47 INFO  Customer:23 - Building the json
+2016-05-28 21:46:47 INFO  Customer:27 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 21:46:48 INFO  WebRequests:54 - null recived responseCode: 400 in 1282 ms
+2016-05-28 21:46:48 INFO  WebRequests:54 - null recived responseCode: 400 in 1338 ms
+2016-05-28 21:46:48 INFO  WebRequests:54 - null recived responseCode: 400 in 1350 ms
+2016-05-28 21:46:48 INFO  WebRequests:54 - null recived responseCode: 400 in 1353 ms
+2016-05-28 21:46:48 INFO  WebRequests:54 - null recived responseCode: 400 in 1368 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 638 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 722 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 734 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 778 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 778 ms
+2016-05-28 21:46:49 INFO  WebRequests:54 - null recived responseCode: 400 in 627 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 655 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 765 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 749 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 727 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 685 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 662 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 710 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 729 ms
+2016-05-28 21:46:50 INFO  WebRequests:54 - null recived responseCode: 400 in 752 ms
+2016-05-28 21:46:51 INFO  WebRequests:54 - null recived responseCode: 400 in 613 ms
+2016-05-28 21:46:51 INFO  WebRequests:54 - null recived responseCode: 400 in 660 ms
+2016-05-28 21:46:51 INFO  WebRequests:54 - null recived responseCode: 400 in 782 ms
+2016-05-28 21:46:53 INFO  SOTest:46 - Done
+2016-05-28 21:46:53 INFO  Customer:17 - Creating new customer
+2016-05-28 21:46:53 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 21:46:53 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 21:46:53 INFO  Customer:21 - 11 orders were found to customer #2
+2016-05-28 21:46:53 INFO  Customer:23 - Building the json
+2016-05-28 21:46:53 INFO  Customer:27 - json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 21:46:54 INFO  WebRequests:54 - null recived responseCode: 400 in 735 ms
+2016-05-28 21:46:54 INFO  WebRequests:54 - null recived responseCode: 400 in 819 ms
+2016-05-28 21:46:55 INFO  WebRequests:54 - null recived responseCode: 400 in 763 ms
+2016-05-28 21:46:56 INFO  WebRequests:54 - null recived responseCode: 400 in 716 ms
+2016-05-28 21:46:56 INFO  WebRequests:54 - null recived responseCode: 400 in 619 ms
+2016-05-28 21:46:57 INFO  WebRequests:54 - null recived responseCode: 400 in 665 ms
+2016-05-28 21:46:58 INFO  WebRequests:54 - null recived responseCode: 400 in 654 ms
+2016-05-28 21:46:58 INFO  WebRequests:54 - null recived responseCode: 400 in 614 ms
+2016-05-28 21:46:59 INFO  WebRequests:54 - null recived responseCode: 400 in 647 ms
+2016-05-28 21:47:00 INFO  WebRequests:54 - null recived responseCode: 400 in 667 ms
+2016-05-28 21:47:00 INFO  WebRequests:54 - null recived responseCode: 400 in 636 ms
+2016-05-28 21:47:02 INFO  SOTest:46 - Done
+2016-05-28 21:48:18 INFO  Customer:17 - Creating new customer
+2016-05-28 21:48:18 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:48:18 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:48:18 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:48:18 INFO  Customer:23 - Building the json
+2016-05-28 21:48:18 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 21:49:50 INFO  Customer:17 - Creating new customer
+2016-05-28 21:49:50 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:49:50 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:49:50 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:49:50 INFO  Customer:23 - Building the json
+2016-05-28 21:50:07 INFO  Customer:17 - Creating new customer
+2016-05-28 21:50:07 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:50:07 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:50:07 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:50:07 INFO  Customer:23 - Building the json
+2016-05-28 21:53:07 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 21:53:10 INFO  WebRequests:54 - null recived responseCode: 400 in 1328 ms
+2016-05-28 21:54:52 INFO  Customer:17 - Creating new customer
+2016-05-28 21:54:52 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 21:54:52 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 21:54:52 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 21:54:52 INFO  Customer:23 - Building the json
+2016-05-28 21:56:04 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 21:58:42 INFO  WebRequests:54 - null recived responseCode: 400 in 1326 ms
+2016-05-28 22:01:37 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 613 ms
+2016-05-28 22:04:12 INFO  Customer:17 - Creating new customer
+2016-05-28 22:04:12 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 22:04:12 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 22:04:12 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 22:04:12 INFO  Customer:23 - Building the json
+2016-05-28 22:04:31 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:04:33 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 1749 ms
+2016-05-28 22:04:33 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 1846 ms
+2016-05-28 22:04:33 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 1853 ms
+2016-05-28 22:04:33 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 1861 ms
+2016-05-28 22:04:33 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 1864 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 617 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 615 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 680 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 752 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 753 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 613 ms
+2016-05-28 22:04:34 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 631 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 739 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 683 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 715 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 630 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 643 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 709 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 715 ms
+2016-05-28 22:04:35 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 720 ms
+2016-05-28 22:04:36 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 680 ms
+2016-05-28 22:04:36 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 632 ms
+2016-05-28 22:04:36 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 622 ms
+2016-05-28 22:04:37 INFO  SOTest:46 - Done
+2016-05-28 22:04:37 INFO  Customer:17 - Creating new customer
+2016-05-28 22:04:37 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 22:04:37 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 22:04:37 INFO  Customer:21 - 11 orders were found to customer #2
+2016-05-28 22:04:37 INFO  Customer:23 - Building the json
+2016-05-28 22:04:37 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:04:38 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 672 ms
+2016-05-28 22:04:39 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 720 ms
+2016-05-28 22:04:39 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 756 ms
+2016-05-28 22:04:40 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 806 ms
+2016-05-28 22:04:41 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 837 ms
+2016-05-28 22:04:42 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 843 ms
+2016-05-28 22:04:43 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 794 ms
+2016-05-28 22:04:43 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 728 ms
+2016-05-28 22:04:44 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 735 ms
+2016-05-28 22:04:45 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 824 ms
+2016-05-28 22:04:46 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 956 ms
+2016-05-28 22:04:47 INFO  SOTest:46 - Done
+2016-05-28 22:07:38 INFO  Customer:17 - Creating new customer
+2016-05-28 22:07:38 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 22:07:38 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 22:07:38 INFO  Customer:21 - 23 orders were found to customer #1
+2016-05-28 22:07:38 INFO  Customer:23 - Building the json
+2016-05-28 22:07:38 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #1
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #2
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #3
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #4
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #5
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #56
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #6
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #76
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #78
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #8
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #8
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #7695
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #78
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #9
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #87
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #0
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #56
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #7
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #4568
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #0
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #7
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #978
+2016-05-28 22:07:38 INFO  Customer:39 - Sending customer #1order #0
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 1314 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 1341 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 1342 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 685 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 793 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 796 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 2151 ms
+2016-05-28 22:07:40 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 2162 ms
+2016-05-28 22:07:41 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 602 ms
+2016-05-28 22:07:41 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 722 ms
+2016-05-28 22:07:41 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 773 ms
+2016-05-28 22:07:41 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 752 ms
+2016-05-28 22:07:41 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 787 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 621 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 745 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 759 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 775 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 770 ms
+2016-05-28 22:07:42 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 611 ms
+2016-05-28 22:07:43 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 600 ms
+2016-05-28 22:07:43 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 651 ms
+2016-05-28 22:07:43 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 649 ms
+2016-05-28 22:07:46 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 3968 ms
+2016-05-28 22:07:47 INFO  SOTest:46 - Done
+2016-05-28 22:07:47 INFO  Customer:17 - Creating new customer
+2016-05-28 22:07:47 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 22:07:47 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 22:07:47 INFO  Customer:21 - 11 orders were found to customer #2
+2016-05-28 22:07:47 INFO  Customer:23 - Building the json
+2016-05-28 22:07:47 INFO  Customer:27 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #1
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #2
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #3
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #4
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #5
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #56
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #6
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #76
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #78
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #8
+2016-05-28 22:07:47 INFO  Customer:39 - Sending customer #2order #8
+2016-05-28 22:07:48 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 599 ms
+2016-05-28 22:07:49 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 655 ms
+2016-05-28 22:07:49 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 608 ms
+2016-05-28 22:07:50 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 607 ms
+2016-05-28 22:07:50 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 673 ms
+2016-05-28 22:07:51 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 606 ms
+2016-05-28 22:07:52 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 674 ms
+2016-05-28 22:07:52 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 605 ms
+2016-05-28 22:07:53 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 689 ms
+2016-05-28 22:07:54 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 612 ms
+2016-05-28 22:07:54 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 604 ms
+2016-05-28 22:07:55 INFO  SOTest:46 - Done
+2016-05-28 22:26:03 INFO  Customer:17 - Creating new customer
+2016-05-28 22:26:03 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:26:03 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:26:03 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 22:26:03 INFO  CsvFiles:33 - there were 23 lines
+2016-05-28 22:26:03 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:26:03 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:26:03 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:26:03 INFO  Customer:48 - Sending all customer orders, total of 23
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:26:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 1462 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 1488 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 1523 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 1525 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 1536 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 623 ms
+2016-05-28 22:26:05 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 728 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 717 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 740 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 762 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 686 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 722 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 686 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 755 ms
+2016-05-28 22:26:06 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 741 ms
+2016-05-28 22:26:07 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 663 ms
+2016-05-28 22:26:07 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 676 ms
+2016-05-28 22:26:07 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 683 ms
+2016-05-28 22:26:07 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 703 ms
+2016-05-28 22:26:07 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 663 ms
+2016-05-28 22:26:08 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 733 ms
+2016-05-28 22:26:08 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 734 ms
+2016-05-28 22:26:08 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 1359 ms
+2016-05-28 22:26:09 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:26:09 INFO  Customer:17 - Creating new customer
+2016-05-28 22:26:09 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:26:09 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:26:09 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 22:26:09 INFO  CsvFiles:33 - there were 11 lines
+2016-05-28 22:26:09 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:26:09 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:26:09 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:26:09 INFO  Customer:48 - Sending all customer orders, total of 11
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:26:09 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:26:10 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 600 ms
+2016-05-28 22:26:10 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 611 ms
+2016-05-28 22:26:11 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 599 ms
+2016-05-28 22:26:12 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 602 ms
+2016-05-28 22:26:12 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 598 ms
+2016-05-28 22:26:13 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 595 ms
+2016-05-28 22:26:13 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 607 ms
+2016-05-28 22:26:14 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 604 ms
+2016-05-28 22:26:15 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 600 ms
+2016-05-28 22:26:15 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 601 ms
+2016-05-28 22:26:16 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 608 ms
+2016-05-28 22:26:17 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:28:03 INFO  Customer:17 - Creating new customer
+2016-05-28 22:28:03 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:28:03 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:28:03 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData.csv
+2016-05-28 22:28:03 INFO  CsvFiles:33 - 23 lines found in csvFiles/customerData.csv
+2016-05-28 22:28:03 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:28:03 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:28:03 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:28:03 INFO  Customer:48 - Sending all customer orders, total of 23
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:28:03 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 1309 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 1553 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 1618 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 1623 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 1624 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 1629 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 1633 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 1647 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1649 ms
+2016-05-28 22:28:04 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 1659 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 602 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 650 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 963 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 982 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 967 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 996 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 998 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 999 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 1012 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 986 ms
+2016-05-28 22:28:05 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 748 ms
+2016-05-28 22:28:06 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 599 ms
+2016-05-28 22:28:06 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 617 ms
+2016-05-28 22:28:08 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:28:08 INFO  Customer:17 - Creating new customer
+2016-05-28 22:28:08 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:28:08 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:28:08 INFO  CsvFiles:19 - Reading csv file csvFiles/customerData1.csv
+2016-05-28 22:28:08 INFO  CsvFiles:33 - 11 lines found in csvFiles/customerData1.csv
+2016-05-28 22:28:08 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:28:08 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:28:08 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:28:08 INFO  Customer:48 - Sending all customer orders, total of 11
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:28:08 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:28:09 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 881 ms
+2016-05-28 22:28:09 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 881 ms
+2016-05-28 22:28:09 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 898 ms
+2016-05-28 22:28:09 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 902 ms
+2016-05-28 22:28:09 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 902 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 814 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 832 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 849 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 832 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 833 ms
+2016-05-28 22:28:10 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 693 ms
+2016-05-28 22:28:12 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:31:17 INFO  Customer:17 - Creating new customer
+2016-05-28 22:31:17 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:31:17 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:31:17 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:31:17 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:31:17 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:31:17 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:31:17 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:31:17 INFO  Customer:48 - Sending all customer orders, total of 23
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:31:17 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:31:18 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 1556 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 1765 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 1766 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 1770 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 1792 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 1812 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 1814 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1818 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 1832 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 1833 ms
+2016-05-28 22:31:19 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 600 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 876 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 894 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 995 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 992 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 978 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 970 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 951 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 952 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 666 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 1190 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 608 ms
+2016-05-28 22:31:20 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 628 ms
+2016-05-28 22:31:22 INFO  SOTest:54 - Done, please view the log file under the "logs" dir
+2016-05-28 22:31:22 INFO  Customer:17 - Creating new customer
+2016-05-28 22:31:22 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:31:22 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:31:22 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:31:22 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:31:22 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:31:22 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:31:22 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:31:22 INFO  Customer:48 - Sending all customer orders, total of 11
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:31:22 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 782 ms
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 844 ms
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 848 ms
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 838 ms
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 835 ms
+2016-05-28 22:31:23 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 688 ms
+2016-05-28 22:31:24 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 833 ms
+2016-05-28 22:31:24 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 833 ms
+2016-05-28 22:31:24 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 837 ms
+2016-05-28 22:31:24 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 836 ms
+2016-05-28 22:31:24 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 662 ms
+2016-05-28 22:31:26 INFO  SOTest:54 - Done, please view the log file under the "logs" dir
+2016-05-28 22:32:39 INFO  Customer:17 - Creating new customer
+2016-05-28 22:32:39 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:32:39 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:32:39 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:32:39 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:32:39 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:32:39 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:32:39 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:32:39 INFO  Customer:48 - Sending all customer orders, total of 23 10 at a time
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:32:39 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 1827 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 2041 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 2067 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 2078 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 2079 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 2078 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 2079 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 2079 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 2081 ms
+2016-05-28 22:32:41 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 2085 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 728 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"nd","id":78} recived responseCode: 400 in 858 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"ghn","id":7695} recived responseCode: 400 in 957 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"g","id":87} recived responseCode: 400 in 959 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"h","id":9} recived responseCode: 400 in 963 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"n","id":7} recived responseCode: 400 in 959 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"dgh","id":4568} recived responseCode: 400 in 959 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"dgh","id":56} recived responseCode: 400 in 971 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 979 ms
+2016-05-28 22:32:42 INFO  WebRequests:54 - {"name":"ghn","id":7} recived responseCode: 400 in 614 ms
+2016-05-28 22:32:43 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 1343 ms
+2016-05-28 22:32:43 INFO  WebRequests:54 - {"name":"n","id":978} recived responseCode: 400 in 708 ms
+2016-05-28 22:32:43 INFO  WebRequests:54 - {"name":"","id":0} recived responseCode: 400 in 709 ms
+2016-05-28 22:32:44 INFO  SOTest:54 - Done, please view the log file under the "logs" dir
+2016-05-28 22:32:44 INFO  Customer:17 - Creating new customer
+2016-05-28 22:32:44 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:32:44 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:32:44 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:32:44 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:32:44 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:32:44 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:32:44 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:32:44 INFO  Customer:48 - Sending all customer orders, total of 11 5 at a time
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:32:44 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"xvb","id":5} recived responseCode: 400 in 726 ms
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"vbn","id":4} recived responseCode: 400 in 816 ms
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"xn","id":1} recived responseCode: 400 in 825 ms
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"vbn","id":3} recived responseCode: 400 in 816 ms
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"n","id":2} recived responseCode: 400 in 828 ms
+2016-05-28 22:32:45 INFO  WebRequests:54 - {"name":"n","id":56} recived responseCode: 400 in 619 ms
+2016-05-28 22:32:46 INFO  WebRequests:54 - {"name":"n","id":76} recived responseCode: 400 in 739 ms
+2016-05-28 22:32:46 INFO  WebRequests:54 - {"name":"ytn","id":8} recived responseCode: 400 in 772 ms
+2016-05-28 22:32:46 INFO  WebRequests:54 - {"name":"xbv","id":6} recived responseCode: 400 in 776 ms
+2016-05-28 22:32:46 INFO  WebRequests:54 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 784 ms
+2016-05-28 22:32:46 INFO  WebRequests:54 - {"name":"ndgh","id":8} recived responseCode: 400 in 606 ms
+2016-05-28 22:32:47 INFO  SOTest:54 - Done, please view the log file under the "logs" dir

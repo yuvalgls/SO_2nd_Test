@@ -16,7 +16,7 @@ public class CsvFiles {
 
 	public static ArrayList<CustomerOrder> createCustomerOrdersList(
 			String filsPath) {
-		logger.info("Reading csv file " + filsPath);
+		logger.info("Reading csv file (" + filsPath + ")");
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
@@ -30,7 +30,7 @@ public class CsvFiles {
 						.split(cvsSplitBy))));
 			}
 			br.close();
-			logger.info("there were " + lineIndex + " lines");
+			logger.info(lineIndex + " lines found");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
