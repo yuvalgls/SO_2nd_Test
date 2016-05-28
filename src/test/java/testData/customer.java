@@ -40,8 +40,8 @@ public class Customer {
 		logger.info("Sending customer #" + this.customerId + " order #"
 				+ customerOrders.get(customerOrderIndex).getId());
 		tools.WebRequests.sendPostAndSaveData(SOTest.URL, (tools.Json
-				.buildJsonFromObject(customerOrders.get(customerOrderIndex))
-				.toString()));
+				.preperCustomerOrderJsonObject(this.customerId,
+						customerOrders.get(customerOrderIndex)).toString()));
 	}
 
 	public void sendAllCustomerOrders() {

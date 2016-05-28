@@ -30,6 +30,15 @@ public class Json {
 		}
 	}
 
+	public static JSONObject preperCustomerOrderJsonObject(int customerID,
+			Object order) {
+		JSONObject newObj = new JSONObject();
+		newObj.put("customer_id", customerID);
+		newObj.append("data", buildJsonFromObject(order));
+		return newObj;
+
+	}
+
 	public static JSONObject buildJsonFromObject(Object order) {
 		Gson gson = new Gson();
 		JSONObject request = null;

@@ -1,5 +1,7 @@
 package tools;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -37,6 +39,14 @@ public class WebRequests {
 					method.setRequestEntity(requestEntity);
 					long startTime = System.currentTimeMillis();
 					responseCode = client.executeMethod(method);
+					BufferedReader br = new BufferedReader(
+							new InputStreamReader(
+									method.getResponseBodyAsStream()));
+					String readLine;
+					while (((readLine = br.readLine()) != null)) {
+						// System.err.println(readLine);
+						logger.debug("Answer from server : \n" + readLine);
+					}
 					requestResomnseTime = System.currentTimeMillis()
 							- startTime;
 					method.getResponseBodyAsStream();
@@ -44,7 +54,7 @@ public class WebRequests {
 				} catch (Exception e) {
 				}
 				logger.info(body + " recived responseCode: " + responseCode
-						+ " in " + requestResomnseTime + " ms");
+						+ " in " + requestResomnseTime + " ms from " + url);
 				tools.CsvFiles.saveToCsvFile(tools.Time.getCurrectDate()
 						+ ".csv", String.valueOf(responseCode), body,
 						requestResomnseTime);

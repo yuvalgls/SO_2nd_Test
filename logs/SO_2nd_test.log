@@ -1705,3 +1705,1317 @@
 2016-05-28 22:43:35 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 400 in 739 ms
 2016-05-28 22:43:36 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 400 in 660 ms
 2016-05-28 22:43:37 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:51:51 INFO  Customer:17 - Creating new customer
+2016-05-28 22:51:51 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:51:51 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:51:51 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:51:51 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:51:51 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:51:51 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:51:51 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:51:51 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:51:51 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:52:48 INFO  Customer:17 - Creating new customer
+2016-05-28 22:52:48 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:52:48 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:52:48 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:52:48 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:52:48 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:52:48 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:52:48 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:52:48 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:52:48 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:52:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:53:53 INFO  Customer:17 - Creating new customer
+2016-05-28 22:53:53 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:53:53 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:53:53 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:53:53 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:53:53 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:53:53 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:53:53 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:53:53 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:53:53 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:54:29 INFO  Customer:17 - Creating new customer
+2016-05-28 22:54:29 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:54:29 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:54:29 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:54:29 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:54:29 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:54:29 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:54:30 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:54:30 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:54:30 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 1776 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 1864 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 1873 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 1874 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1886 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 1886 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 1889 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 1891 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 1904 ms
+2016-05-28 22:54:31 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 1903 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 630 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"ghn","id":7695} recived responseCode: 400 in 813 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"nd","id":78} recived responseCode: 400 in 874 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"n","id":7} recived responseCode: 400 in 929 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 915 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"dgh","id":56} recived responseCode: 400 in 981 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 985 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"h","id":9} recived responseCode: 400 in 1008 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"dgh","id":4568} recived responseCode: 400 in 979 ms
+2016-05-28 22:54:32 INFO  WebRequests:46 - {"name":"g","id":87} recived responseCode: 400 in 1003 ms
+2016-05-28 22:54:33 INFO  WebRequests:46 - {"name":"ghn","id":7} recived responseCode: 400 in 596 ms
+2016-05-28 22:54:33 INFO  WebRequests:46 - {"name":"n","id":978} recived responseCode: 400 in 614 ms
+2016-05-28 22:54:33 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 594 ms
+2016-05-28 22:54:35 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:54:35 INFO  Customer:17 - Creating new customer
+2016-05-28 22:54:35 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:54:35 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:54:35 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:54:35 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:54:35 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:54:35 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:54:35 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:54:35 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:54:35 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:54:35 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 690 ms
+2016-05-28 22:54:35 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 754 ms
+2016-05-28 22:54:35 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 775 ms
+2016-05-28 22:54:35 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 799 ms
+2016-05-28 22:54:35 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 802 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 605 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 682 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 669 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 699 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 702 ms
+2016-05-28 22:54:36 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 594 ms
+2016-05-28 22:54:38 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:56:50 INFO  Customer:17 - Creating new customer
+2016-05-28 22:56:50 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:56:50 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:56:50 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:56:50 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:56:50 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:56:50 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:56:50 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:56:50 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:56:50 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"nd","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"ghn","id":7695} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"g","id":87} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"dgh","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"dgh","id":4568} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"h","id":9} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"n","id":7} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"n","id":978} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:50 INFO  WebRequests:47 - {"name":"ghn","id":7} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:56:52 INFO  Customer:17 - Creating new customer
+2016-05-28 22:56:52 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:56:52 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:56:52 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:56:52 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:56:52 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:56:52 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:56:52 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:56:52 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:52 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:56:54 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:57:52 INFO  Customer:17 - Creating new customer
+2016-05-28 22:57:52 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:57:52 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:57:52 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:57:52 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:57:52 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:57:52 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:57:52 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:57:52 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:57:52 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"ghn","id":7695} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"g","id":87} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"nd","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"h","id":9} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"dgh","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"dgh","id":4568} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"ghn","id":7} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"n","id":7} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"n","id":978} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:52 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:57:54 INFO  Customer:17 - Creating new customer
+2016-05-28 22:57:54 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:57:54 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:57:54 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:57:54 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:57:54 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:57:54 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:57:54 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:57:54 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:57:54 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:54 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 0 in 0 ms
+2016-05-28 22:57:56 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:58:54 INFO  Customer:17 - Creating new customer
+2016-05-28 22:58:54 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 22:58:54 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:58:54 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 22:58:54 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 22:58:54 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 22:58:54 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:58:54 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 22:58:54 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 22:58:54 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 1379 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 1545 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 1547 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1554 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 1564 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 1567 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 1569 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 1573 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 1776 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 1838 ms
+2016-05-28 22:58:56 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 605 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"ghn","id":7695} recived responseCode: 400 in 722 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"h","id":9} recived responseCode: 400 in 827 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"nd","id":78} recived responseCode: 400 in 896 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"n","id":7} recived responseCode: 400 in 869 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"dgh","id":56} recived responseCode: 400 in 889 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"g","id":87} recived responseCode: 400 in 918 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"dgh","id":4568} recived responseCode: 400 in 688 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 704 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"ghn","id":7} recived responseCode: 400 in 597 ms
+2016-05-28 22:58:57 INFO  WebRequests:46 - {"name":"n","id":978} recived responseCode: 400 in 594 ms
+2016-05-28 22:58:58 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 1141 ms
+2016-05-28 22:58:59 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 3504 ms
+2016-05-28 22:59:01 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 22:59:01 INFO  Customer:17 - Creating new customer
+2016-05-28 22:59:01 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 22:59:01 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 22:59:01 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 22:59:01 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 22:59:01 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 22:59:01 INFO  Customer:24 - Creating the full customer json
+2016-05-28 22:59:01 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 22:59:01 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:59:01 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 22:59:02 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 716 ms
+2016-05-28 22:59:02 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 786 ms
+2016-05-28 22:59:02 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 784 ms
+2016-05-28 22:59:02 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 790 ms
+2016-05-28 22:59:02 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 793 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 609 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 713 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 725 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 725 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 733 ms
+2016-05-28 22:59:03 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 594 ms
+2016-05-28 22:59:04 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:00:29 INFO  Customer:17 - Creating new customer
+2016-05-28 23:00:29 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:00:29 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:00:29 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:00:29 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:00:29 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:00:29 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:00:29 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:00:29 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:00:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 1576 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 1722 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 1733 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 1757 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 1757 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 1781 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 1781 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 1781 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1782 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 1782 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:31 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 652 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"nd","id":78} recived responseCode: 400 in 775 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"ghn","id":7695} recived responseCode: 400 in 924 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"g","id":87} recived responseCode: 400 in 945 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"h","id":9} recived responseCode: 400 in 947 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 960 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 959 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"n","id":7} recived responseCode: 400 in 974 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"dgh","id":56} recived responseCode: 400 in 973 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"dgh","id":4568} recived responseCode: 400 in 969 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"ghn","id":7} recived responseCode: 400 in 661 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:32 INFO  WebRequests:46 - {"name":"n","id":978} recived responseCode: 400 in 702 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:33 INFO  WebRequests:46 - {"name":"","id":0} recived responseCode: 400 in 677 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:34 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:00:34 INFO  Customer:17 - Creating new customer
+2016-05-28 23:00:34 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:00:34 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:00:34 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:00:34 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:00:34 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:00:34 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:00:34 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:00:34 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:00:34 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:00:35 INFO  WebRequests:46 - {"name":"vbn","id":4} recived responseCode: 400 in 769 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:35 INFO  WebRequests:46 - {"name":"xvb","id":5} recived responseCode: 400 in 784 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:35 INFO  WebRequests:46 - {"name":"xn","id":1} recived responseCode: 400 in 795 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:35 INFO  WebRequests:46 - {"name":"n","id":2} recived responseCode: 400 in 809 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:35 INFO  WebRequests:46 - {"name":"vbn","id":3} recived responseCode: 400 in 795 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"n","id":56} recived responseCode: 400 in 707 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"xbv","id":6} recived responseCode: 400 in 739 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 760 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"n","id":76} recived responseCode: 400 in 791 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"ytn","id":8} recived responseCode: 400 in 775 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:36 INFO  WebRequests:46 - {"name":"ndgh","id":8} recived responseCode: 400 in 597 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:00:38 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:28:20 INFO  Customer:17 - Creating new customer
+2016-05-28 23:28:20 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:28:20 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:28:20 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:28:20 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:28:20 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:28:20 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:28:20 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:28:20 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:28:20 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"vbn","id":4} recived responseCode: 400 in 1578 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"ytn","id":8} recived responseCode: 400 in 1728 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"n","id":2} recived responseCode: 400 in 1729 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"n","id":56} recived responseCode: 400 in 1740 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"xbv","id":6} recived responseCode: 400 in 1759 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"vbn","id":3} recived responseCode: 400 in 1781 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"n","id":76} recived responseCode: 400 in 1785 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1797 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"xn","id":1} recived responseCode: 400 in 1797 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"xvb","id":5} recived responseCode: 400 in 1800 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:22 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:22 INFO  WebRequests:48 - {"name":"ndgh","id":8} recived responseCode: 400 in 595 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"nd","id":78} recived responseCode: 400 in 834 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"h","id":9} recived responseCode: 400 in 927 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"dgh","id":4568} recived responseCode: 400 in 911 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"","id":0} recived responseCode: 400 in 915 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"g","id":87} recived responseCode: 400 in 955 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"dgh","id":56} recived responseCode: 400 in 967 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"ghn","id":7695} recived responseCode: 400 in 1034 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"","id":0} recived responseCode: 400 in 1010 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"n","id":7} recived responseCode: 400 in 993 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"ghn","id":7} recived responseCode: 400 in 657 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:23 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:23 INFO  WebRequests:48 - {"name":"n","id":978} recived responseCode: 400 in 660 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:24 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:24 INFO  WebRequests:48 - {"name":"","id":0} recived responseCode: 400 in 703 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:25 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:28:25 INFO  Customer:17 - Creating new customer
+2016-05-28 23:28:25 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:28:25 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:28:25 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:28:25 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:28:25 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:28:25 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:28:25 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:28:25 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:28:25 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:28:26 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:26 INFO  WebRequests:48 - {"name":"vbn","id":3} recived responseCode: 400 in 740 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:26 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:26 INFO  WebRequests:48 - {"name":"xn","id":1} recived responseCode: 400 in 805 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:26 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:26 INFO  WebRequests:48 - {"name":"n","id":2} recived responseCode: 400 in 822 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:26 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:26 INFO  WebRequests:48 - {"name":"xvb","id":5} recived responseCode: 400 in 821 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:26 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:26 INFO  WebRequests:48 - {"name":"vbn","id":4} recived responseCode: 400 in 823 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"n","id":56} recived responseCode: 400 in 603 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"n","id":76} recived responseCode: 400 in 691 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"xbv","id":6} recived responseCode: 400 in 723 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 718 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"ytn","id":8} recived responseCode: 400 in 726 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:27 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:28:27 INFO  WebRequests:48 - {"name":"ndgh","id":8} recived responseCode: 400 in 592 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:28:28 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:31:00 INFO  Customer:17 - Creating new customer
+2016-05-28 23:31:00 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:31:00 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:31:00 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:31:00 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:31:00 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:31:00 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:31:00 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:31:00 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:31:00 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 400 in 1378 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 400 in 1646 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 400 in 1647 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 400 in 1651 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1662 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 400 in 1662 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 400 in 1664 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 400 in 1664 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 400 in 1662 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:01 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 400 in 1662 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 400 in 609 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"ghn","id":7695} recived responseCode: 400 in 841 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"dgh","id":56} recived responseCode: 400 in 1015 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"dgh","id":4568} recived responseCode: 400 in 1032 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"g","id":87} recived responseCode: 400 in 1037 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"h","id":9} recived responseCode: 400 in 1054 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"nd","id":78} recived responseCode: 400 in 1060 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"n","id":7} recived responseCode: 400 in 1043 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 400 in 1047 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:02 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:02 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 400 in 1051 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:03 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:03 INFO  WebRequests:47 - {"name":"ghn","id":7} recived responseCode: 400 in 756 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:03 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:03 INFO  WebRequests:47 - {"name":"n","id":978} recived responseCode: 400 in 588 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:03 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:03 INFO  WebRequests:47 - {"name":"","id":0} recived responseCode: 400 in 593 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:05 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:31:05 INFO  Customer:17 - Creating new customer
+2016-05-28 23:31:05 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:31:05 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:31:05 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:31:05 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:31:05 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:31:05 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:31:05 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:31:05 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:31:05 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"xn","id":1} recived responseCode: 400 in 762 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"vbn","id":3} recived responseCode: 400 in 801 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"vbn","id":4} recived responseCode: 400 in 808 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"n","id":2} recived responseCode: 400 in 828 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"xvb","id":5} recived responseCode: 400 in 836 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"n","id":56} recived responseCode: 400 in 669 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 713 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"xbv","id":6} recived responseCode: 400 in 753 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"n","id":76} recived responseCode: 400 in 754 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:06 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:06 INFO  WebRequests:47 - {"name":"ytn","id":8} recived responseCode: 400 in 728 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:07 WARN  HttpMethodBase:682 - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2016-05-28 23:31:07 INFO  WebRequests:47 - {"name":"ndgh","id":8} recived responseCode: 400 in 658 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:31:09 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:32:58 INFO  Customer:17 - Creating new customer
+2016-05-28 23:32:58 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:32:58 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:32:58 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:32:58 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:32:58 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:32:58 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:32:58 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:32:58 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:32:58 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:32:59 INFO  WebRequests:56 - {"name":"vbn","id":4} recived responseCode: 400 in 1410 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"xvb","id":5} recived responseCode: 400 in 1647 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"n","id":76} recived responseCode: 400 in 1657 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"vbn","id":3} recived responseCode: 400 in 1661 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"ytn","id":8} recived responseCode: 400 in 1668 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"n","id":2} recived responseCode: 400 in 1670 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"xbv","id":6} recived responseCode: 400 in 1675 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"n","id":56} recived responseCode: 400 in 1677 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"xn","id":1} recived responseCode: 400 in 1683 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1688 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:00 INFO  WebRequests:56 - {"name":"ndgh","id":8} recived responseCode: 400 in 623 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"nd","id":78} recived responseCode: 400 in 837 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"n","id":7} recived responseCode: 400 in 903 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"dgh","id":56} recived responseCode: 400 in 907 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"ghn","id":7695} recived responseCode: 400 in 945 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"h","id":9} recived responseCode: 400 in 961 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 938 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"dgh","id":4568} recived responseCode: 400 in 946 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"g","id":87} recived responseCode: 400 in 968 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"ghn","id":7} recived responseCode: 400 in 650 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 1176 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:01 INFO  WebRequests:56 - {"name":"n","id":978} recived responseCode: 400 in 599 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:03 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 1892 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:04 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:33:04 INFO  Customer:17 - Creating new customer
+2016-05-28 23:33:04 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:33:04 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:33:04 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:33:04 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:33:04 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:33:04 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:33:04 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:33:04 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:33:04 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:33:05 INFO  WebRequests:56 - {"name":"xn","id":1} recived responseCode: 400 in 934 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:05 INFO  WebRequests:56 - {"name":"xvb","id":5} recived responseCode: 400 in 937 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:05 INFO  WebRequests:56 - {"name":"vbn","id":4} recived responseCode: 400 in 979 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:05 INFO  WebRequests:56 - {"name":"vbn","id":3} recived responseCode: 400 in 976 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:05 INFO  WebRequests:56 - {"name":"n","id":2} recived responseCode: 400 in 1002 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"xbv","id":6} recived responseCode: 400 in 791 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"n","id":56} recived responseCode: 400 in 844 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"n","id":76} recived responseCode: 400 in 867 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"ytn","id":8} recived responseCode: 400 in 911 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 938 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:06 INFO  WebRequests:56 - {"name":"ndgh","id":8} recived responseCode: 400 in 693 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:08 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:33:23 INFO  Customer:17 - Creating new customer
+2016-05-28 23:33:23 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:33:23 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:33:23 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:33:23 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:33:23 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:33:23 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:33:23 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:33:23 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:33:23 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:33:24 INFO  WebRequests:48 - {
+2016-05-28 23:33:24 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:24 INFO  WebRequests:48 - }
+2016-05-28 23:33:24 INFO  WebRequests:56 - {"name":"xn","id":1} recived responseCode: 400 in 1549 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:24 INFO  WebRequests:48 - {
+2016-05-28 23:33:24 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:24 INFO  WebRequests:48 - }
+2016-05-28 23:33:24 INFO  WebRequests:56 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 1741 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:24 INFO  WebRequests:48 - {
+2016-05-28 23:33:24 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:24 INFO  WebRequests:48 - }
+2016-05-28 23:33:24 INFO  WebRequests:56 - {"name":"ytn","id":8} recived responseCode: 400 in 1800 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:24 INFO  WebRequests:48 - {
+2016-05-28 23:33:24 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:24 INFO  WebRequests:48 - }
+2016-05-28 23:33:24 INFO  WebRequests:56 - {"name":"vbn","id":3} recived responseCode: 400 in 1801 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"vbn","id":4} recived responseCode: 400 in 1820 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"n","id":56} recived responseCode: 400 in 1824 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"xvb","id":5} recived responseCode: 400 in 1828 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"xbv","id":6} recived responseCode: 400 in 1829 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"n","id":76} recived responseCode: 400 in 1830 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"n","id":2} recived responseCode: 400 in 1831 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"ndgh","id":8} recived responseCode: 400 in 594 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"ghn","id":7695} recived responseCode: 400 in 618 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 806 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"h","id":9} recived responseCode: 400 in 911 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"nd","id":78} recived responseCode: 400 in 934 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"dgh","id":4568} recived responseCode: 400 in 903 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"n","id":7} recived responseCode: 400 in 903 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"g","id":87} recived responseCode: 400 in 922 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"dgh","id":56} recived responseCode: 400 in 917 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:25 INFO  WebRequests:48 - {
+2016-05-28 23:33:25 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:25 INFO  WebRequests:48 - }
+2016-05-28 23:33:25 INFO  WebRequests:56 - {"name":"ghn","id":7} recived responseCode: 400 in 645 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:26 INFO  WebRequests:48 - {
+2016-05-28 23:33:26 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:26 INFO  WebRequests:48 - }
+2016-05-28 23:33:26 INFO  WebRequests:56 - {"name":"n","id":978} recived responseCode: 400 in 592 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:26 INFO  WebRequests:48 - {
+2016-05-28 23:33:26 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:26 INFO  WebRequests:48 - }
+2016-05-28 23:33:26 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 1139 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:28 INFO  WebRequests:48 - {
+2016-05-28 23:33:28 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:28 INFO  WebRequests:48 - }
+2016-05-28 23:33:28 INFO  WebRequests:56 - {"name":"","id":0} recived responseCode: 400 in 3575 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:30 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:33:30 INFO  Customer:17 - Creating new customer
+2016-05-28 23:33:30 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:33:30 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:33:30 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:33:30 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:33:30 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:33:30 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:33:30 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:33:30 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:33:30 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:33:30 INFO  WebRequests:48 - {
+2016-05-28 23:33:30 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:30 INFO  WebRequests:48 - }
+2016-05-28 23:33:30 INFO  WebRequests:56 - {"name":"n","id":2} recived responseCode: 400 in 718 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:30 INFO  WebRequests:48 - {
+2016-05-28 23:33:30 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:30 INFO  WebRequests:48 - }
+2016-05-28 23:33:30 INFO  WebRequests:56 - {"name":"vbn","id":3} recived responseCode: 400 in 770 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:30 INFO  WebRequests:48 - {
+2016-05-28 23:33:30 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:30 INFO  WebRequests:48 - }
+2016-05-28 23:33:30 INFO  WebRequests:56 - {"name":"vbn","id":4} recived responseCode: 400 in 777 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:30 INFO  WebRequests:48 - {
+2016-05-28 23:33:30 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:30 INFO  WebRequests:48 - }
+2016-05-28 23:33:30 INFO  WebRequests:56 - {"name":"xn","id":1} recived responseCode: 400 in 797 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:30 INFO  WebRequests:48 - {
+2016-05-28 23:33:30 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:30 INFO  WebRequests:48 - }
+2016-05-28 23:33:30 INFO  WebRequests:56 - {"name":"xvb","id":5} recived responseCode: 400 in 792 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:31 INFO  WebRequests:48 - {
+2016-05-28 23:33:31 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:31 INFO  WebRequests:48 - }
+2016-05-28 23:33:31 INFO  WebRequests:56 - {"name":"n","id":56} recived responseCode: 400 in 627 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:31 INFO  WebRequests:48 - {
+2016-05-28 23:33:31 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:31 INFO  WebRequests:48 - }
+2016-05-28 23:33:31 INFO  WebRequests:56 - {"name":"ytn","id":8} recived responseCode: 400 in 706 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:31 INFO  WebRequests:48 - {
+2016-05-28 23:33:31 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:31 INFO  WebRequests:48 - }
+2016-05-28 23:33:31 INFO  WebRequests:56 - {"name":"xbv","id":6} recived responseCode: 400 in 742 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:31 INFO  WebRequests:48 - {
+2016-05-28 23:33:31 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:31 INFO  WebRequests:48 - }
+2016-05-28 23:33:31 INFO  WebRequests:56 - {"name":"xbvnxbvn","id":78} recived responseCode: 400 in 733 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:31 INFO  WebRequests:48 - {
+2016-05-28 23:33:31 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:31 INFO  WebRequests:48 - }
+2016-05-28 23:33:31 INFO  WebRequests:56 - {"name":"n","id":76} recived responseCode: 400 in 746 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:32 INFO  WebRequests:48 - {
+2016-05-28 23:33:32 INFO  WebRequests:48 -     "error": "missing customer_id data"
+2016-05-28 23:33:32 INFO  WebRequests:48 - }
+2016-05-28 23:33:32 INFO  WebRequests:56 - {"name":"ndgh","id":8} recived responseCode: 400 in 600 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:33:33 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:45:37 INFO  Customer:17 - Creating new customer
+2016-05-28 23:45:37 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:45:37 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:45:37 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:45:37 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:45:37 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:45:37 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:45:37 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:45:37 INFO  Customer:50 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:45:37 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"xvb","id":5}],"customer_id":1} recived responseCode: 200 in 1515 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":3}],"customer_id":1} recived responseCode: 200 in 1573 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"n","id":76}],"customer_id":1} recived responseCode: 200 in 1732 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"xbv","id":6}],"customer_id":1} recived responseCode: 200 in 1734 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"xn","id":1}],"customer_id":1} recived responseCode: 200 in 1746 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"n","id":2}],"customer_id":1} recived responseCode: 200 in 1774 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"n","id":56}],"customer_id":1} recived responseCode: 200 in 1777 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":1} recived responseCode: 200 in 1778 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"ytn","id":8}],"customer_id":1} recived responseCode: 200 in 1790 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":4}],"customer_id":1} recived responseCode: 200 in 1791 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"ndgh","id":8}],"customer_id":1} recived responseCode: 200 in 606 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:39 INFO  WebRequests:48 - {
+2016-05-28 23:45:39 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:39 INFO  WebRequests:48 - }
+2016-05-28 23:45:39 INFO  WebRequests:56 - {"data":[{"name":"ghn","id":7695}],"customer_id":1} recived responseCode: 200 in 622 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"h","id":9}],"customer_id":1} recived responseCode: 200 in 828 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"g","id":87}],"customer_id":1} recived responseCode: 200 in 923 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"nd","id":78}],"customer_id":1} recived responseCode: 200 in 936 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 913 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"dgh","id":4568}],"customer_id":1} recived responseCode: 200 in 898 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"dgh","id":56}],"customer_id":1} recived responseCode: 200 in 924 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 917 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"n","id":7}],"customer_id":1} recived responseCode: 200 in 938 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"ghn","id":7}],"customer_id":1} recived responseCode: 200 in 634 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"n","id":978}],"customer_id":1} recived responseCode: 200 in 629 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:40 INFO  WebRequests:48 - {
+2016-05-28 23:45:40 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:40 INFO  WebRequests:48 - }
+2016-05-28 23:45:40 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 615 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:42 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:45:42 INFO  Customer:17 - Creating new customer
+2016-05-28 23:45:42 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:45:42 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:45:42 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:45:42 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:45:42 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:45:42 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:45:42 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:45:42 INFO  Customer:50 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:45:42 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:45:43 INFO  WebRequests:48 - {
+2016-05-28 23:45:43 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:43 INFO  WebRequests:48 - }
+2016-05-28 23:45:43 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":4}],"customer_id":2} recived responseCode: 200 in 741 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:43 INFO  WebRequests:48 - {
+2016-05-28 23:45:43 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:43 INFO  WebRequests:48 - }
+2016-05-28 23:45:43 INFO  WebRequests:56 - {"data":[{"name":"xvb","id":5}],"customer_id":2} recived responseCode: 200 in 763 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:43 INFO  WebRequests:48 - {
+2016-05-28 23:45:43 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:43 INFO  WebRequests:48 - }
+2016-05-28 23:45:43 INFO  WebRequests:56 - {"data":[{"name":"n","id":2}],"customer_id":2} recived responseCode: 200 in 802 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:43 INFO  WebRequests:48 - {
+2016-05-28 23:45:43 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:43 INFO  WebRequests:48 - }
+2016-05-28 23:45:43 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":3}],"customer_id":2} recived responseCode: 200 in 804 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:43 INFO  WebRequests:48 - {
+2016-05-28 23:45:43 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:43 INFO  WebRequests:48 - }
+2016-05-28 23:45:43 INFO  WebRequests:56 - {"data":[{"name":"xn","id":1}],"customer_id":2} recived responseCode: 200 in 825 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:44 INFO  WebRequests:48 - {
+2016-05-28 23:45:44 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:44 INFO  WebRequests:48 - }
+2016-05-28 23:45:44 INFO  WebRequests:56 - {"data":[{"name":"n","id":56}],"customer_id":2} recived responseCode: 200 in 628 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:44 INFO  WebRequests:48 - {
+2016-05-28 23:45:44 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:44 INFO  WebRequests:48 - }
+2016-05-28 23:45:44 INFO  WebRequests:56 - {"data":[{"name":"xbv","id":6}],"customer_id":2} recived responseCode: 200 in 718 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:44 INFO  WebRequests:48 - {
+2016-05-28 23:45:44 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:44 INFO  WebRequests:48 - }
+2016-05-28 23:45:44 INFO  WebRequests:56 - {"data":[{"name":"ytn","id":8}],"customer_id":2} recived responseCode: 200 in 668 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:44 INFO  WebRequests:48 - {
+2016-05-28 23:45:44 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:44 INFO  WebRequests:48 - }
+2016-05-28 23:45:44 INFO  WebRequests:56 - {"data":[{"name":"n","id":76}],"customer_id":2} recived responseCode: 200 in 699 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:44 INFO  WebRequests:48 - {
+2016-05-28 23:45:44 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:44 INFO  WebRequests:48 - }
+2016-05-28 23:45:44 INFO  WebRequests:56 - {"data":[{"name":"ndgh","id":8}],"customer_id":2} recived responseCode: 200 in 621 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:46 INFO  WebRequests:48 - {
+2016-05-28 23:45:46 INFO  WebRequests:48 -     "status": "OK"
+2016-05-28 23:45:46 INFO  WebRequests:48 - }
+2016-05-28 23:45:46 INFO  WebRequests:56 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":2} recived responseCode: 200 in 3462 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:45:48 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:49:29 INFO  Customer:17 - Creating new customer
+2016-05-28 23:49:29 INFO  Customer:19 - New customer created, customer id = 1
+2016-05-28 23:49:29 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:49:29 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData.csv)
+2016-05-28 23:49:29 INFO  CsvFiles:33 - 23 lines found
+2016-05-28 23:49:29 INFO  Customer:22 - 23 orders were found to customer #1
+2016-05-28 23:49:29 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:49:29 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8},{"name":"ghn","id":7695},{"name":"nd","id":78},{"name":"h","id":9},{"name":"g","id":87},{"name":"","id":0},{"name":"dgh","id":56},{"name":"n","id":7},{"name":"dgh","id":4568},{"name":"","id":0},{"name":"ghn","id":7},{"name":"n","id":978},{"name":"","id":0}],"customer_id":1}
+2016-05-28 23:49:29 INFO  Customer:48 - Sending all customer orders, total of 23, 10 at a time
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #1
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #2
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #3
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #4
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #5
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #6
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #76
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #8
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #7695
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #78
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #9
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #87
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #56
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #4568
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #7
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #978
+2016-05-28 23:49:29 INFO  Customer:40 - Sending customer #1 order #0
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"ytn","id":8}],"customer_id":1} recived responseCode: 200 in 1511 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"n","id":56}],"customer_id":1} recived responseCode: 200 in 1544 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":1} recived responseCode: 200 in 1712 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":3}],"customer_id":1} recived responseCode: 200 in 1737 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"xbv","id":6}],"customer_id":1} recived responseCode: 200 in 1745 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":4}],"customer_id":1} recived responseCode: 200 in 1773 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"n","id":76}],"customer_id":1} recived responseCode: 200 in 1775 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"xvb","id":5}],"customer_id":1} recived responseCode: 200 in 1775 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"n","id":2}],"customer_id":1} recived responseCode: 200 in 1778 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:31 INFO  WebRequests:56 - {"data":[{"name":"xn","id":1}],"customer_id":1} recived responseCode: 200 in 1777 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"ndgh","id":8}],"customer_id":1} recived responseCode: 200 in 703 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"ghn","id":7695}],"customer_id":1} recived responseCode: 200 in 761 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"nd","id":78}],"customer_id":1} recived responseCode: 200 in 742 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"h","id":9}],"customer_id":1} recived responseCode: 200 in 883 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 903 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"n","id":7}],"customer_id":1} recived responseCode: 200 in 986 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"dgh","id":56}],"customer_id":1} recived responseCode: 200 in 1009 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"g","id":87}],"customer_id":1} recived responseCode: 200 in 1046 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"dgh","id":4568}],"customer_id":1} recived responseCode: 200 in 1021 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 1026 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"ghn","id":7}],"customer_id":1} recived responseCode: 200 in 663 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:32 INFO  WebRequests:56 - {"data":[{"name":"n","id":978}],"customer_id":1} recived responseCode: 200 in 658 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:33 INFO  WebRequests:56 - {"data":[{"name":"","id":0}],"customer_id":1} recived responseCode: 200 in 693 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:34 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
+2016-05-28 23:49:34 INFO  Customer:17 - Creating new customer
+2016-05-28 23:49:34 INFO  Customer:19 - New customer created, customer id = 2
+2016-05-28 23:49:34 INFO  Customer:20 - Starting to read the customer orders from the csv file
+2016-05-28 23:49:34 INFO  CsvFiles:19 - Reading csv file (csvFiles/customerData1.csv)
+2016-05-28 23:49:34 INFO  CsvFiles:33 - 11 lines found
+2016-05-28 23:49:34 INFO  Customer:22 - 11 orders were found to customer #2
+2016-05-28 23:49:34 INFO  Customer:24 - Creating the full customer json
+2016-05-28 23:49:34 INFO  Customer:28 - Full customer json: {"data":[{"name":"xn","id":1},{"name":"n","id":2},{"name":"vbn","id":3},{"name":"vbn","id":4},{"name":"xvb","id":5},{"name":"n","id":56},{"name":"xbv","id":6},{"name":"n","id":76},{"name":"xbvnxbvn","id":78},{"name":"ytn","id":8},{"name":"ndgh","id":8}],"customer_id":2}
+2016-05-28 23:49:34 INFO  Customer:48 - Sending all customer orders, total of 11, 5 at a time
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #1
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #2
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #3
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #4
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #5
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #56
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #6
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #76
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #78
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:49:34 INFO  Customer:40 - Sending customer #2 order #8
+2016-05-28 23:49:35 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":4}],"customer_id":2} recived responseCode: 200 in 697 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:35 INFO  WebRequests:56 - {"data":[{"name":"n","id":2}],"customer_id":2} recived responseCode: 200 in 789 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:35 INFO  WebRequests:56 - {"data":[{"name":"vbn","id":3}],"customer_id":2} recived responseCode: 200 in 785 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:35 INFO  WebRequests:56 - {"data":[{"name":"xvb","id":5}],"customer_id":2} recived responseCode: 200 in 789 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:35 INFO  WebRequests:56 - {"data":[{"name":"xn","id":1}],"customer_id":2} recived responseCode: 200 in 802 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:36 INFO  WebRequests:56 - {"data":[{"name":"n","id":56}],"customer_id":2} recived responseCode: 200 in 740 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:36 INFO  WebRequests:56 - {"data":[{"name":"xbv","id":6}],"customer_id":2} recived responseCode: 200 in 681 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:36 INFO  WebRequests:56 - {"data":[{"name":"ytn","id":8}],"customer_id":2} recived responseCode: 200 in 701 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:36 INFO  WebRequests:56 - {"data":[{"name":"n","id":76}],"customer_id":2} recived responseCode: 200 in 711 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:37 INFO  WebRequests:56 - {"data":[{"name":"ndgh","id":8}],"customer_id":2} recived responseCode: 200 in 595 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:39 INFO  WebRequests:56 - {"data":[{"name":"xbvnxbvn","id":78}],"customer_id":2} recived responseCode: 200 in 3513 ms from https://sandbox.simpleorder.com/automation-test
+2016-05-28 23:49:40 INFO  SOTest:52 - Done, please view the log file under the "logs" dir
